@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-Z1Hc50QJUsc-nQh-y6QqRA" name="Measurement of end-to-end trustworthiness,_h-QOsRuEEeOF_P09ig5mEw" guid="-Z1Hc50QJUsc-nQh-y6QqRA">
+    <mainDescription>&lt;p>&#xD;
+    This activity is carried out both at design time of the system and at runtime. The system designer/developer can use&#xD;
+    this capability at design time to evaluate a particular design alternative and assess whether the trustworthiness of a&#xD;
+    proposed system configuration meets the trust requirements. At runtime, the trustworthiness monitor can re-evaluate the&#xD;
+    trustworthiness periodically in order to assess the current trustworthiness of the system, in the light of changing&#xD;
+    circumstances – or the active nature of certain threats.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    The capability relies on a model of all the system assets, the relationships between those assets (&lt;strong>Asset Model&#xD;
+    Artifact&lt;/strong> from Capability: Threat and mitigation controls identification), and also on the threat model, and&#xD;
+    controls present in each of the assets and the system as a whole &lt;strong>Threat and Control Model Artifact&lt;/strong>&#xD;
+    from the Capability: Threat and mitigation controls identification). Other inputs to the capability are the&#xD;
+    certificates of trustworthiness that may be supplied with the assets (&lt;strong>Trustworthiness Certificate&#xD;
+    Artifacts&lt;/strong> from Capability: Preparing for Digital Trustworthiness Certificates), which contain the relevant&#xD;
+    trustworthiness criteria to be computed on an end-to-end basis. This will allow checking the trustworthiness criteria&#xD;
+    against the relevant trust criteria (from Capability Identifying criteria for trust and trustworthiness) in order to&#xD;
+    assess whether the user’s experience when using the system will meet its expectations.&lt;br />&#xD;
+    &lt;br />&#xD;
+&lt;/p></mainDescription>
+    <purpose>The system should have an objective measure of its trustworthiness both at design time and at runtime.</purpose>
+    <howtoStaff>The activity should be performed at design time by the system trustworthiness architect and at runtime by the system&#xD;
+trustworthiness monitor.</howtoStaff>
+    <scope>design time, runtime</scope>
+    <usageNotes>&lt;p>&#xD;
+    At runtime the capability should be automatically triggered whenever the system configuration is altered by adding a&#xD;
+    new asset or reconfiguration of an existing asset. The capability should also be triggered at the emergence of new&#xD;
+    previously inactive threats to trustworthiness or sudden loss of trust.&#xD;
+&lt;/p></usageNotes>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-DBp3aiaHV2o-5K4iZExYbA" name="Evaluate System Trustworthiness,_gVqq0BuFEeOF_P09ig5mEw" guid="-DBp3aiaHV2o-5K4iZExYbA">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The skills required are similar to those of the risk analyzer in the Capability Threat and mitigation controls&#xD;
+        identification.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Many (most) of the tasks at runtime can be automated.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>System trustworthiness is measured while designing, developing, or operating the system.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qHC1BpQUKdG9UCNZiOnl_A" name="System Trustworthiness Monitor,_gVrR4BuFEeOF_P09ig5mEw" guid="-qHC1BpQUKdG9UCNZiOnl_A">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying changes in the STS assets and topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identifying changes in threat activity to the system&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Maintaining the certificates of assets – should these change over time&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Invoke the Trustworthiness Calculator at run time&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wKbKyrw0N6_-ftZz61A8Kg" name="System Trustworthiness Architect,_gVrR4huFEeOF_P09ig5mEw" guid="-wKbKyrw0N6_-ftZz61A8Kg">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Import the STS assets model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Model and modify the system assets and topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Import the Threat and Control Model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Add to the Threat and Control Model new threats and controls (e.g. domain specific ones)&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Import the Assets' Certificates&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Invoke the Trustworthiness Calculator at design time&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-S6ay38P66dEqsqNNzZpudw" name="System Trust and Trustworthiness Architect,_EEcM4SzIEeOsmM-pQcPXOw" guid="-S6ay38P66dEqsqNNzZpudw">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Design the Observation and Management interfaces for each asset in the STS&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Create the System Trust and Trustworthiness Observation and Management Interface document&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure that the interfaces are implemented by the system developers&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

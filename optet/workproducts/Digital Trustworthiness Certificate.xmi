@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-wPU0pWLvXJ12uXxpL7u1eQ" name="new_artifact,_PyXn4DZxEeOZfq-iuYBfLA" guid="-wPU0pWLvXJ12uXxpL7u1eQ" changeDate="2013-10-16T16:44:35.345+0200">
+  <mainDescription>&lt;p>&#xD;
+    A Digital Trustworthiness Certificate (DTwC) is a machine-readable and understandable artefact that captures the&#xD;
+    relevant information about the trustworthiness of a service/software. It provides trustworthiness assurance on a&#xD;
+    software in two different ways.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The former consists in disclosing software’s architecture and relevant assets, as well as its threat model and the&#xD;
+        means to contrast its challenges, from controls to trustworthiness attributes, explicitly defining the assets on&#xD;
+        which they operates.&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The latter is represented by a number of evidences, collected during the certification evaluation process, that&#xD;
+        support the claims about the presence/implementation of trustworthiness attributes, controls and so on.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Therefore, it is important that a TwByD software development process is structured in a way to incorporate&#xD;
+    trustworthiness attributes from the very beginning of the development phase, and to document this process to produce&#xD;
+    information for the creation of a DTwC.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ArtifactDescription>

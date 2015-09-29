@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-AZp7zaemL5vFxeFpQ7OFvw" name="new_artifact,_eo6NABxUEeOF_P09ig5mEw" guid="-AZp7zaemL5vFxeFpQ7OFvw" changeDate="2013-09-13T11:11:57.240+0200">
+  <purpose>To document the interfaces for the system developers and the system monitoring and management component</purpose>
+  <impactOfNotHaving>&lt;span&#xD;
+style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-GB; mso-fareast-language: IT; mso-bidi-language: AR-SA'>&#xD;
+Without this artifact, it is difficult to ensure that the management and monitoring component can interact correctly with&#xD;
+the STS. If the runtime maintenance, which is based on observing trustworthiness properties and executing controls in the&#xD;
+system, is not planned in the system design phase, appropriate interfaces must be added later to the system, which can be&#xD;
+costly.&lt;/span></impactOfNotHaving>
+</org.eclipse.epf.uma:ArtifactDescription>

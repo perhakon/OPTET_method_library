@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-QpMYtntMr-F68NosL_4w3Q" name=",_gTnQwBxTEeOF_P09ig5mEw" guid="-QpMYtntMr-F68NosL_4w3Q" changeDate="2015-05-13T11:51:26.189+0200">
+  <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        There may be more than one control that can be activated for mitigating a particular threat.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The observation of threat activity may only be possible by indirect observation of an asset’s trustworthiness&#xD;
+        properties. In some cases, the cause of the threat may be external to the STS, and thus not directly observable.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Trust beliefs may likewise be hard to observe directly. Trust-related properties of e.g. a user should be observed&#xD;
+        by focusing on trustee behaviour in interactions with trusted assets, which can be observed by interfaces of the&#xD;
+        (software) assets.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  <sections xmi:id="_s14egBxTEeOF_P09ig5mEw" name="Design asset observation interfaces" guid="_s14egBxTEeOF_P09ig5mEw">
+    <sectionDescription>&lt;p>&#xD;
+    For each trustworthy asset, identify trustworthiness properties that are measurable and can be used as indicators for&#xD;
+    the presence or absence of threats at runtime. To this end, software properties, which can be reported or observed at&#xD;
+    runtime by respective interfaces, are defined. These properties can be used as parameters for calculating&#xD;
+    trustworthiness metrics.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    Since threat activity is usually not directly visible in a running system, it may help to think in terms of&#xD;
+    misbehaviours that the asset could expose at runtime (e.g., underperformance). The runtime trustworthiness maintenance&#xD;
+    should be able to identify misbehaviours based on the symptoms reported in the form of system trustworthiness&#xD;
+    properties.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_woMSgBxTEeOF_P09ig5mEw" name="Design additional Interfaces for Threat Observation and Control" guid="_woMSgBxTEeOF_P09ig5mEw">
+    <sectionDescription>&lt;p>&#xD;
+    For each trustworthy asset, design an interface to transmit its trustworthiness properties to the runtime&#xD;
+    trustworthiness monitor. To this end, consider the trustworthiness properties that have been defined for each threat,&#xD;
+    and can be considered as misbehaviour symptoms to be observed by the runtime maintenance. The asset may either be&#xD;
+    designed to report the property values periodically to the trustworthiness maintenance, or offer an interface to query&#xD;
+    these properties.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For each trusting asset, design an interface to transmit its trust properties to the runtime trust monitor.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_3K2foPlVEeST16WGbo409w" name="Design additional Interfaces for Threat Observation and Casset control interfaces" guid="_3K2foPlVEeST16WGbo409w">
+    <sectionDescription>&lt;span&#xD;
+style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-ansi-language: EN-GB; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-fareast-language: IT; mso-bidi-language: AR-SA'>&#xD;
+For each control mechanism, design an actuating interface that can be called by the runtime trustworthiness maintenance to&#xD;
+actually execute the control in the system and thereby mitigate a threat and restore trustworthiness.&lt;/span></sectionDescription>
+  </sections>
+  <purpose>&lt;span&#xD;
+style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-GB; mso-fareast-language: IT; mso-bidi-language: AR-SA'>&#xD;
+Facilitate the communication with the developers of the system about where observation and control points should be&#xD;
+implemented, and to communicate to the system runtime manager how to access the measurement and controls on the&#xD;
+trustworthiness of the system.&lt;/span></purpose>
+</org.eclipse.epf.uma:TaskDescription>

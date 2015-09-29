@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-tHStzHTQKudgfV_pCFr5Lg" name="Optet capability pattern,_TqW_cRrNEeOmssXiGvLyfg" guid="-tHStzHTQKudgfV_pCFr5Lg"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-13qzwDdP5aP9_z8kdQ1EWw" name="Evaluate System Trustworthiness,_1GGEgBrPEeOmssXiGvLyfg" guid="-13qzwDdP5aP9_z8kdQ1EWw">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The skills required are similar to those of the risk analyzer in the Capability Threat and mitigation controls&#xD;
+        identification.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Many (most) of the tasks at runtime can be automated.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>System trustworthiness is measured while designing, developing, or operating the system.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TAHTGOHK3Umab1j3dYCXnQ" name="System Trustworthiness Monitor,_1GH5sBrPEeOmssXiGvLyfg" guid="-TAHTGOHK3Umab1j3dYCXnQ">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying changes in the STS assets and topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identifying changes in threat activity to the system&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Maintaining the certificates of assets – should these change over time&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Invoke the Trustworthiness Calculator at run time&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-emJBkj6Dh4ms2YGSxtMSAg" name="System Trustworthiness Architect,_1GH5shrPEeOmssXiGvLyfg" guid="-emJBkj6Dh4ms2YGSxtMSAg">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Import the STS assets model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Model and modify the system assets and topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Import the Threat and Control Model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Add to the Threat and Control Model new threats and controls (e.g. domain specific ones)&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Import the Assets' Certificates&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Invoke the Trustworthiness Calculator at design time&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-b9EaLhOeonwkjkYQ2yrrqQ" name="Identify threats and controls,_2EoJUBrPEeOmssXiGvLyfg" guid="-b9EaLhOeonwkjkYQ2yrrqQ">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The steps may get complicated and automation would be very beneficial&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The analyser may use different methods for identifying threats. The analyser should add any threats to the database&#xD;
+        once they are idetified.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It is important to keep the knowledge base up to date, but also the risk analyser should keep in mind that new&#xD;
+        threats appear all the time and should have a plan to deal with such threats as they arise.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Arial','sans-serif'; BACKGROUND: white; COLOR: black; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: IT; mso-bidi-language: AR-SA&quot;&#xD;
+ lang=&quot;EN-US&quot;>While designing or developing the system, threats the may compromise its activities should be idenfitied and&#xD;
+addressed. Addressing these threats may include eliminating the threat source, implementing controls that reduce the&#xD;
+likelihood of threat happening, implementing controls that allows system recovery or just accept the threats without doing&#xD;
+any actions.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--fmYnFezG3zmskVtd__qvw" name="Risk analyser,_2E6dMBrPEeOmssXiGvLyfg" guid="--fmYnFezG3zmskVtd__qvw">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying the STS assets&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Model the system assets and topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use the knowledge base and semantics to infer system threats&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use the knowledge base to choose the controls&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Add to the knowledge base new threats and controls (e.g. domain specific ones)&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

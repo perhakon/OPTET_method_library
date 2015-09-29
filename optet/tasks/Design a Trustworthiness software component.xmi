@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-uOVg2QEdURl45BtjoX9cvA" name=",_WG2UMPlKEeST16WGbo409w" guid="-uOVg2QEdURl45BtjoX9cvA" changeDate="2015-05-13T15:08:17.526+0200">
+  <mainDescription>&lt;p>&#xD;
+    The Software trustworthy designer is in charge to integrate trustworthy features in the detailed design. He has to make&#xD;
+    up the detailed design regarding the functional requirements. This expanded detailed design is used by the developer&#xD;
+    himself or by another team member in order to write the source code of the component.&lt;br />&#xD;
+    In order to increase trustworthiness, he has to take into account the following elements:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Trustworthiness profile&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A definition of the system with all defined external interfaces (e.g. architecture described in UML).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Technical choices and design pattern to use.(based on CSM)&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <keyConsiderations>&lt;p class=&quot;MsoNormal&quot;&#xD;
+style=&quot;BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 6pt 0cm 6pt 22.5pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;&#xD;
+ align=&quot;left&quot;>&#xD;
+    &lt;span lang=&quot;IT&quot;&#xD;
+    style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; COLOR: black; mso-fareast-language: EN-GB'>Use a model&#xD;
+    approach with UML to refine the component definition and the different interfaces.&lt;/span>&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_PGxR8PlxEeST16WGbo409w" name="Analyze the component definition  " guid="_PGxR8PlxEeST16WGbo409w">
+    <sectionDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto&quot;>&#xD;
+    &lt;span lang=&quot;IT&quot; style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-language: EN-GB'>For the&#xD;
+    component, open the architecture diagram describing the component and its interfaces (UML port notion) and check that&#xD;
+    all the interfaces are defined.&lt;/span> &lt;span lang=&quot;IT&quot;&#xD;
+    style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-language: EN-GB; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: IT; mso-bidi-language: AR-SA'>&#xD;
+    Read the functional and non-functional specifications and check that nothing is missing.&lt;/span>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_SRW-oPlxEeST16WGbo409w" name="Design of the interfaces  " guid="_SRW-oPlxEeST16WGbo409w">
+    <sectionDescription>For each functional interface, use the architecture guideline and technical choices to design them.&lt;br />&#xD;
+For each non-functional interfaces (contributing to Trustworthiness), use the existing reference implementation or use the&#xD;
+architecture guideline and technical choices for the new kinds. Integrate trustworthy pattern and OCL constraints answering&#xD;
+non-functional trustworthiness specifications.&lt;br /></sectionDescription>
+  </sections>
+  <purpose>&lt;span lang=&quot;IT&quot;&#xD;
+style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; BACKGROUND: white; COLOR: black; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: IT; mso-fareast-language: IT; mso-bidi-language: AR-SA'>&#xD;
+Prepare to write source code of a component.&lt;/span></purpose>
+  <alternatives>&lt;span lang=&quot;IT&quot;&#xD;
+style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; BACKGROUND: white; COLOR: black; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: IT; mso-fareast-language: IT; mso-bidi-language: AR-SA'>&#xD;
+In the case of Opa language, this step is not applicable because the design is already defined (components are only Web&#xD;
+Client and Server).&lt;/span></alternatives>
+</org.eclipse.epf.uma:TaskDescription>

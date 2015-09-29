@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-P9Z_Yg2ovFU0Ci9bgkr5bw" name="Identification of threats and mitigating controls,_Wq3kARuGEeOF_P09ig5mEw" guid="-P9Z_Yg2ovFU0Ci9bgkr5bw">
+    <mainDescription>&lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Arial','sans-serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-GB; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA&quot;>&#xD;
+This activity is carried out during the design time of the system. The system designer/developer can use this capability in&#xD;
+order to identify the threats to the system assets and choose controls that mitigate these threats.&lt;span&#xD;
+style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span> The capability relies on a knowledge base of threats mapped to asset types. The&#xD;
+designer/developer should go through the identification process whenever a new threat is included in the knowledge base or&#xD;
+asset changed (added/removed). The architecture and topology of asset combination is also a trigger of this process. The&#xD;
+process can also be carried out after the design of the system during runtime, if system is dynamic (i.e. new assets&#xD;
+added/removed dynamically). Furthermore, the process should also be followed for auditing and certification purposes, in&#xD;
+order to verify that the required controls were implemented.&lt;/span></mainDescription>
+    <keyConsiderations>&lt;span&#xD;
+style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-GB; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA'>&#xD;
+The solution provided by OPTET to support this Capability Pattern simplifies and automates the threat identification&#xD;
+process. The goal is to allow System designers who are not risk experts to use the tool and identify threats as well as&#xD;
+controls.&lt;span style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&amp;nbsp;&lt;/span>&lt;span style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span>&lt;/span></keyConsiderations>
+    <purpose>The design should incorporate controls to the threats that may compromise its functions.</purpose>
+    <howtoStaff>The staff performing this activity must be integrated into the team.</howtoStaff>
+    <scope>design time, runtime, audit</scope>
+    <usageNotes>During design time&amp;nbsp;the capability can be used in many iterations as the system develops. This will make sure that the&#xD;
+different control possibilities are investigated and chosen according to feasibility and effectiveness criteria.</usageNotes>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-SNduUpkNoC9Fz8nUWVQavQ" name="Identify threats and controls,_87RR8BuIEeOF_P09ig5mEw" guid="-SNduUpkNoC9Fz8nUWVQavQ">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The steps may get complicated and automation would be very beneficial&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The analyser may use different methods for identifying threats. The analyser should add any threats to the database&#xD;
+        once they are identified.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It is important to keep the knowledge base up to date, but also the risk analyser should keep in mind that new&#xD;
+        threats appear all the time and should have a plan to deal with such threats as they arise.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Arial','sans-serif'; BACKGROUND: white; COLOR: black; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: IT; mso-bidi-language: AR-SA&quot;&#xD;
+ lang=&quot;EN-US&quot;>While designing or developing the system, threats the may compromise its activities should be identified and&#xD;
+addressed. Addressing these threats may include eliminating the threat source, implementing controls that reduce the&#xD;
+likelihood of threat happening, implementing controls that allows system recovery or just accept the threats without doing&#xD;
+any actions.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-A6r5t1Ft6cj341fH2g6c3A" name="Risk analyser,_87R5ABuIEeOF_P09ig5mEw" guid="-A6r5t1Ft6cj341fH2g6c3A">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying the STS assets&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Model the system assets and topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use the knowledge base and semantics to infer system threats&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use the knowledge base to choose the controls&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Add to the knowledge base new threats and controls (e.g. domain specific ones)&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

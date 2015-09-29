@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-4xs8sSeJXi23JorM23iNmA" name="new_role,_HDNU8BoNEeOeTN_guLSnBA" guid="-4xs8sSeJXi23JorM23iNmA" authors="AUEB, IBM" changeDate="2013-09-13T10:08:19.788+0200">
+  <mainDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Import the STS assets model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Model and modify the system assets and topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Import the Threat and Control Model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Add to the Threat and Control Model new threats and controls (e.g. domain specific ones)&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Import the Assets' Certificates&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Import the desired trust requirements, which will influence what types of TSLAs will be supported&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Invoke the Trustworthiness Calculator at design time&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <skills>&lt;p>&#xD;
+    A person filling the this role should have these skills:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Asset modelling techniques&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Risk and threat and control modelling&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Knowledge of the system and domain&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Understanding trust and trustworthiness metrics&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></skills>
+  <assignmentApproaches>This role should be assigned to the leader of the system development team.</assignmentApproaches>
+</org.eclipse.epf.uma:RoleDescription>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-qhawNUri7qocHLWxnlTGPg" name="new_role,_ilIuABoPEeOeTN_guLSnBA" guid="-qhawNUri7qocHLWxnlTGPg" changeDate="2013-09-13T10:09:14.614+0200">
+  <mainDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying changes in the STS assets and topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identifying changes in threat activity to the system&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Maintaining the certificates of assets – should these change over time&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Invoke the Trustworthiness Calculator at run time&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <skills>&lt;p>&#xD;
+    A person filling the this role should have these skills:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Knowledge of the system and domain&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Access to changing information on assets and their certificates&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Understanding trust and trustworthiness metrics&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></skills>
+  <assignmentApproaches>This role should be assigned to a technical member of the maintenance team.</assignmentApproaches>
+</org.eclipse.epf.uma:RoleDescription>

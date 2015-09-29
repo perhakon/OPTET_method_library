@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-xtFjT5NRJ3UpT1vaHPauWw" name=",_u0TK0DAOEeOzAouxgBZboA" guid="-xtFjT5NRJ3UpT1vaHPauWw" changeDate="2013-10-08T13:56:20.528+0200">
+  <purpose>If it is impossible to involve user, usability experts may be able to evaluate designs by “walking through” designs based&#xD;
+on user and task goals.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

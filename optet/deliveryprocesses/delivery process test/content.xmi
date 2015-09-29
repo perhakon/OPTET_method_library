@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-BNZZNyHqTlmH8zVUGjcdWQ" name="delivery process test,_WtkHER7FEeOpqe0MT6WSXg" guid="-BNZZNyHqTlmH8zVUGjcdWQ">
+    <purpose>testing</purpose>
+  </org.eclipse.epf.uma:DeliveryProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-In4LXuY3XSXZWZDNgc7uvQ" name="Evaluate System Trustworthiness,_uvXTMB7FEeOpqe0MT6WSXg" guid="-In4LXuY3XSXZWZDNgc7uvQ">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The skills required are similar to those of the risk analyzer in the Capability Threat and mitigation controls&#xD;
+        identification.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Many (most) of the tasks at runtime can be automated.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>System trustworthiness is measured while designing, developing, or operating the system.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kGNOiZURb5xJHpeEW5vxXg" name="System Trustworthiness Monitor,_uvX6QB7FEeOpqe0MT6WSXg" guid="-kGNOiZURb5xJHpeEW5vxXg">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying changes in the STS assets and topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identifying changes in threat activity to the system&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Maintaining the certificates of assets – should these change over time&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Invoke the Trustworthiness Calculator at run time&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UAM9v7ewauPjFAWFL8kEOA" name="System Trust and Trustworthiness Architect,_uvX6Qh7FEeOpqe0MT6WSXg" guid="-UAM9v7ewauPjFAWFL8kEOA">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Design the Observation and Management interfaces for each asset in the STS&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Create the System Trust and Trustworthiness Observation and Management Interface document&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure that the interfaces are implemented by the system developers&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_Uus5S3qrKJuGnlCbXJz2w" name="Identify threats and controls,_UjFXEB7GEeOpqe0MT6WSXg" guid="-_Uus5S3qrKJuGnlCbXJz2w">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The steps may get complicated and automation would be very beneficial&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The analyser may use different methods for identifying threats. The analyser should add any threats to the database&#xD;
+        once they are idetified.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It is important to keep the knowledge base up to date, but also the risk analyser should keep in mind that new&#xD;
+        threats appear all the time and should have a plan to deal with such threats as they arise.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Arial','sans-serif'; BACKGROUND: white; COLOR: black; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: IT; mso-bidi-language: AR-SA&quot;&#xD;
+ lang=&quot;EN-US&quot;>While designing or developing the system, threats the may compromise its activities should be idenfitied and&#xD;
+addressed. Addressing these threats may include eliminating the threat source, implementing controls that reduce the&#xD;
+likelihood of threat happening, implementing controls that allows system recovery or just accept the threats without doing&#xD;
+any actions.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-p5p_fPbMIL8MYftfAIZpUQ" name="Risk analyser,_UjFXER7GEeOpqe0MT6WSXg" guid="-p5p_fPbMIL8MYftfAIZpUQ">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying the STS assets&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Model the system assets and topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use the knowledge base and semantics to infer system threats&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use the knowledge base to choose the controls&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Add to the knowledge base new threats and controls (e.g. domain specific ones)&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-OSqXpnDMfel1TWXPDDDdnQ" name="Implement Observation and Control Interfaces,_VSsPEB7GEeOpqe0MT6WSXg" guid="-OSqXpnDMfel1TWXPDDDdnQ">
+    <refinedDescription>This task is a standard task in software engineering:</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-0Z4nCcHaT2xaQXaZpm_Q7Q" name="System Developer,_VSsPER7GEeOpqe0MT6WSXg" guid="-0Z4nCcHaT2xaQXaZpm_Q7Q">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Implement the Observation and Management interfaces for each asset in the STS&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test the interfaces&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JRRPoI_h8F2rZxeA9SBUXQ" name="System Trustworthiness Architect,_YoqFUB7GEeOpqe0MT6WSXg" guid="-JRRPoI_h8F2rZxeA9SBUXQ">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Import the STS assets model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Model and modify the system assets and topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Import the Threat and Control Model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Add to the Threat and Control Model new threats and controls (e.g. domain specific ones)&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Import the Assets' Certificates&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Import the desired trust requirements, which will influence what types of TSLAs will be supported&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Invoke the Trustworthiness Calculator at design time&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-vPnthbHUJ7UPenJn3V_BQg" name="Preparation for runtime monitoring of trust and trustworthiness,_p9CQ0RxNEeOF_P09ig5mEw" guid="-vPnthbHUJ7UPenJn3V_BQg">
+    <mainDescription>This activity is carried out during the design and development time of the system. The system designer/developer uses this&#xD;
+capability to create interfaces which are accessible to the runtime monitoring and management functions. For each asset, an&#xD;
+interface is defined which exposes the values of the trust or trustworthiness properties. For each threat a set of symptoms&#xD;
+is defined, and the designer provides interfaces for the observation of these symptoms. For each control, the designer&#xD;
+provides an interface to the management subsystem to invoke the control.</mainDescription>
+    <purpose>The system should facilitate the monitoring of trust and trustworthiness by providing methods for the runtime monitor to&#xD;
+gather the values of the properties, observe the events in the running system, and activate the controls to deal with&#xD;
+threats.</purpose>
+    <howtoStaff>The staff performing this activity must part of the design and development team.</howtoStaff>
+    <scope>design and development time</scope>
+    <usageNotes>&lt;p>&#xD;
+    During design and development time the capability must be used to enable trust and trustworthiness measurement and&#xD;
+    management.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If new assets, threats, or controls are identified at runtime, this capability is needed to reconfigure the monitoring&#xD;
+    and management system.&lt;br />&#xD;
+&lt;/p></usageNotes>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2KLgZUCs9G3mMs8SVY0e0g" name="Design Observation and Control Interfaces,_0MfXUBxhEeOF_P09ig5mEw" guid="-2KLgZUCs9G3mMs8SVY0e0g"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ohZX-6FkiFL_cpF_tzxrDw" name="System Trust and Trustworthiness Architect,_0Mf-YBxhEeOF_P09ig5mEw" guid="-ohZX-6FkiFL_cpF_tzxrDw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-i17g7aYGy_5PMks1XUMfiw" name="Evaluate System Trustworthiness,_vEKzoB7HEeOpqe0MT6WSXg" guid="-i17g7aYGy_5PMks1XUMfiw">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The skills required are similar to those of the risk analyzer in the Capability Threat and mitigation controls&#xD;
+        identification.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Many (most) of the tasks at runtime can be automated.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>System trustworthiness is measured while designing, developing, or operating the system.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2ahR2eTmoBWnsziJ5W3tGg" name="System Trustworthiness Monitor,_vEKzoR7HEeOpqe0MT6WSXg" guid="-2ahR2eTmoBWnsziJ5W3tGg">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying changes in the STS assets and topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identifying changes in threat activity to the system&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Maintaining the certificates of assets – should these change over time&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Invoke the Trustworthiness Calculator at run time&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AsM71NU3JfbJrdMDURhVMA" name="System Trust and Trustworthiness Architect,_vEKzox7HEeOpqe0MT6WSXg" guid="-AsM71NU3JfbJrdMDURhVMA">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Design the Observation and Management interfaces for each asset in the STS&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Create the System Trust and Trustworthiness Observation and Management Interface document&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure that the interfaces are implemented by the system developers&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

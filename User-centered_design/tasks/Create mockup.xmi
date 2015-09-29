@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-kymp8M5zVmNQUPtOS0YB7Q" name=",_mOOe8DTGEeOsCLw7x1ZWZA" guid="-kymp8M5zVmNQUPtOS0YB7Q" authors="http://en.wikipedia.org/wiki/Mockup" changeDate="2013-10-14T13:50:36.873+0200">
+  <mainDescription>&lt;span&#xD;
+style=&quot;TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px/19px sans-serif; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+The most common use of Mockups in software development is to create user interfaces that show the end user what the&#xD;
+software will look like without having to build the software or the underlying functionality. Software UI mockups can range&#xD;
+from very simple hand drawn screen layouts, through realistic bitmaps, to semi functional user interfaces developed in a&#xD;
+software development tool.&lt;/span></mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

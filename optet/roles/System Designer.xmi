@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Mbw8n3kAm3H8zs-7H6wD6A" name="new_role,_19LCAPlJEeST16WGbo409w" guid="-Mbw8n3kAm3H8zs-7H6wD6A" changeDate="2015-05-13T14:37:40.374+0200">
+  <mainDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Analyzing the definition of the component with its external interfaces provided by the architecture team.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Designing in details the trustworthiness features.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Providing an UML diagram and/or OCL constraints to take into account different trustworthy properties.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <skills>&lt;p>&#xD;
+    A person filling the this role should have these skills:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A methodology to design a software component&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Knowledge of UML and OCS constraints&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Knowledge of how to model different trustworthy properties with UML/OCL (OPTET knowledge)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Knowledge of Eclipse environment and OPTET plugins for the design part (UML and OCL)&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></skills>
+  <assignmentApproaches>Assign one designer for the whole component (for functional and non-functional part). In some cases and if the team size is&#xD;
+enough, a dedicated designer could take in charge the design of trustworthy aspects.</assignmentApproaches>
+</org.eclipse.epf.uma:RoleDescription>

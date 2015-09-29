@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_V_ySsBxiEeOF_P09ig5mEw" guid="_V_ySsBxiEeOF_P09ig5mEw">
+    <resourceDescriptors xmi:id="_V_y5wBxiEeOF_P09ig5mEw" id="-moukGsaTlde8G6PHuh7n1A" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_V-pqQBxiEeOF_P09ig5mEw" name="Identifying criteria for trust and trustworthiness" guid="_V-pqQBxiEeOF_P09ig5mEw">
+    <methodElementProperty xmi:id="_V-pqQhxiEeOF_P09ig5mEw" name="pkg_loadCheck" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_V-pqQRxiEeOF_P09ig5mEw" name="Identifying criteria for trust and trustworthiness" guid="_V-pqQRxiEeOF_P09ig5mEw" presentationName="Identifying criteria for trust and trustworthiness">
+      <presentation xmi:id="-moukGsaTlde8G6PHuh7n1A" href="uma://-moukGsaTlde8G6PHuh7n1A#-moukGsaTlde8G6PHuh7n1A"/>
+      <defaultContext href="uma://_T6l317ekEd-D7YZN9NgldQ#_BCxFcBbsEeOdJ_5Qdnu-0g"/>
+      <validContext href="uma://_T6l317ekEd-D7YZN9NgldQ#_BCxFcBbsEeOdJ_5Qdnu-0g"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

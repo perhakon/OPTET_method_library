@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8TdscHClWpg5EAZSn8-XHg" name="Focus group,_ooldEDZ9EeOZfq-iuYBfLA" guid="-8TdscHClWpg5EAZSn8-XHg">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(35,122,169); MARGIN-TOP: 1.1em; TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 14px/20px arial, 'trebuchet MS', helvetica, sans-serif; WHITE-SPACE: normal; MARGIN-BOTTOM: 1.1em; COLOR: rgb(255,255,255); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    A&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;a&#xD;
+    style=&quot;COLOR: rgb(255,167,65); CURSOR: pointer; FONT-WEIGHT: bold; TEXT-DECORATION: underline&quot;&#xD;
+    href=&quot;http://www.webcredible.co.uk/services/focus-groups.shtml&quot;>&lt;font size=&quot;3&quot;>focus group&lt;/font>&lt;/a>&lt;span&#xD;
+    class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>involves encouraging an invited group of intended/actual users of a site&#xD;
+    (i.e. participants) to share their thoughts, feelings, attitudes and ideas on a certain subject.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(35,122,169); MARGIN-TOP: 1.1em; TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 14px/20px arial, 'trebuchet MS', helvetica, sans-serif; WHITE-SPACE: normal; MARGIN-BOTTOM: 1.1em; COLOR: rgb(255,255,255); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    Organising focus groups within an organisation can also be very useful in&lt;span&#xD;
+    class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;strong>getting buy-in&lt;/strong>&lt;span&#xD;
+    class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>to a project from within that company.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bDlZTsVFqsOcLvEdviUGOw" name="Create mockup,_t_ZwwDZ9EeOZfq-iuYBfLA" guid="-bDlZTsVFqsOcLvEdviUGOw">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px/19px sans-serif; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+The most common use of Mockups in software development is to create user interfaces that show the end user what the&#xD;
+software will look like without having to build the software or the underlying functionality. Software UI mockups can range&#xD;
+from very simple hand drawn screen layouts, through realistic bitmaps, to semi functional user interfaces developed in a&#xD;
+software development tool.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-tDW-4ntCQgmAwDrHHwvH4g" name="User-centered_design_process,_hLfx0TAZEeOzAouxgBZboA" guid="-tDW-4ntCQgmAwDrHHwvH4g"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-CrstF_nxwAEtU4r8O3kjVQ" name="Identify threats and controls,_87RR8BuIEeOF_P09ig5mEw" guid="-CrstF_nxwAEtU4r8O3kjVQ"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-p37w-3_8angeFFtwS68zhQ" name="Risk analyser,_87R5ABuIEeOF_P09ig5mEw" guid="-p37w-3_8angeFFtwS68zhQ"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-T-6u0u3sM8ezIazCAiH6iQ" name="Identification of threats and mitigating controls,_Wq3kARuGEeOF_P09ig5mEw" guid="-T-6u0u3sM8ezIazCAiH6iQ">
+    <mainDescription>This activity is carried out during the design time of the system. The system designer/developer can use this capability in&#xD;
+order to identify the threats to the system assets and choose controls that mitigate the threat. The capability relies on a&#xD;
+knowledge base of threats mapped to asset types. The designer/developer should go through the identification process&#xD;
+whenever a new threat is included in the knowledge base or asset changed (added/removed). The architecture and topology of&#xD;
+asset combination is also a trigger of this process. The process can also be carried out after the design of the system&#xD;
+during runtime if system is dynamic (i.e. new assets added/removed dynamically) also for auditing and certification purpose&#xD;
+in order to verify that the required controls were implemented.</mainDescription>
+    <purpose>The design should incorporate controls to the threats that may compromise its functions.</purpose>
+    <howtoStaff>The staff performing this activity must be integrated into the team.</howtoStaff>
+    <scope>design time, runtime, audit</scope>
+    <usageNotes>During design time&amp;nbsp;the capability can be used in many iterations as the system develops. This will make sure that the&#xD;
+different control possibilities are investigated and chosen according to feasibility and effectiveness criteria.</usageNotes>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-6XqYuxZfKaCIYaa6a4jgzQ" name="Measurement of end-to-end trustworthiness,_h-QOsRuEEeOF_P09ig5mEw" guid="-6XqYuxZfKaCIYaa6a4jgzQ">
+    <mainDescription>&lt;p>&#xD;
+    This activity is carried out both at design time of the system and at runtime. The system designer/developer can use&#xD;
+    this capability at design time to evaluate a particular design alternative and assess whether the trustworthiness of a&#xD;
+    proposed system configuration meets the trust requirements. At runtime, the trustworthiness monitor can re-evaluate the&#xD;
+    trustworthiness periodically in order to assess the current trustworthiness of the system, in the light of changing&#xD;
+    circumstances – or the active nature of certain threats.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    The capability relies on a model of all the system assets, the relationships between those assets (&lt;strong>Asset Model&#xD;
+    Artifact&lt;/strong> from Capability: Threat and mitigation controls identification), and also on the threat model, and&#xD;
+    controls present in each of the assets and the system as a whole &lt;strong>Threat and Control Model Artifact&lt;/strong>&#xD;
+    from the Capability: Threat and mitigation controls identification). Other inputs to the capability are the&#xD;
+    certificates of trustworthiness that may be supplied with the assets (&lt;strong>Trustworthiness Certificate&#xD;
+    Artifacts&lt;/strong> from Capability: Preparing for Digital Trustworthiness Certificates), which contain the relevant&#xD;
+    trustworthiness criteria to be computed on an end-to-end basis. This will allow checking the trustworthiness criteria&#xD;
+    against the relevant trust criteria (from Capability Identifying criteria for trust and trustworthiness) in order to&#xD;
+    assess whether the user’s experience when using the system will meet its expectations.&lt;br />&#xD;
+    &lt;br />&#xD;
+&lt;/p></mainDescription>
+    <purpose>The system should have an objective measure of its trustworthiness both at design time and at runtime.</purpose>
+    <howtoStaff>The activity should be performed at design time by the system trustworthiness architect and at runtime by the system&#xD;
+trustworthiness monitor.</howtoStaff>
+    <scope>design time, runtime</scope>
+    <usageNotes>&lt;p>&#xD;
+    At runtime the capability should be automatically triggered whenever the system configuration is altered by adding a&#xD;
+    new asset or reconfiguration of an existing asset. The capability should also be triggered at the emergence of new&#xD;
+    previously inactive threats to trustworthiness or sudden loss of trust.&#xD;
+&lt;/p></usageNotes>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WtqtWnCtOcKEj7pEzniK8w" name="Evaluate System Trustworthiness,_gVqq0BuFEeOF_P09ig5mEw" guid="-WtqtWnCtOcKEj7pEzniK8w"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5VUDwc9UegJEcMM2vTLg2g" name="System Trustworthiness Monitor,_gVrR4BuFEeOF_P09ig5mEw" guid="-5VUDwc9UegJEcMM2vTLg2g"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-P2z6R_i6dllmVX5RtAHg2w" name="System Trust and Trustworthiness Architect,_EEcM4SzIEeOsmM-pQcPXOw" guid="-P2z6R_i6dllmVX5RtAHg2w"/>
+</xmi:XMI>

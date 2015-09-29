@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ZEIe9ztg5As-YKWXUeqqvw" name="new_whitepaper,_RIF-UGK0EeSD76PrfO85zA" guid="-ZEIe9ztg5As-YKWXUeqqvw">
+  <mainDescription>&lt;span lang=&quot;IT&quot;&#xD;
+style=&quot;FONT-SIZE: 11pt; FONT-FAMILY: 'Tahoma','sans-serif'; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: IT; mso-fareast-language: IT; mso-bidi-language: AR-SA&quot;>&#xD;
+&lt;span lang=&quot;IT&quot;&#xD;
+style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Tahoma&quot;,&quot;sans-serif&quot;; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: IT; mso-fareast-language: IT; mso-bidi-language: AR-SA'>&#xD;
+The TWME provides a platform to design new multi-asset system models, comprising of classes and relationships from a&#xD;
+generic ontology model.&amp;nbsp;&lt;span class=&quot;apple-converted-space&quot;>&amp;nbsp;&lt;/span>Having created the structure of a new system&#xD;
+model, this software allows system designers to generate a graphical representation as well as ontological representation&#xD;
+(in OWL) of the system model. Inferences can then be run on the created ontology to generate a collection of possible&#xD;
+threats to the designed model and different control stratgies propositions to manage them.&lt;/span>&lt;/span></mainDescription>
+  <attachments>resources/Trustworthiness Model Editor GE.pdf</attachments>
+</org.eclipse.epf.uma:GuidanceDescription>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-AS24FH2RuBZs5ddX5RXeNA" name="Preparing for Digital Trustworthiness Certificates,_8BztwRxhEeOF_P09ig5mEw" guid="-AS24FH2RuBZs5ddX5RXeNA">
+  <mainDescription>This activity is carried out at design time with the goal of producing a DTwC that provides trustworthiness assurances on a&#xD;
+software in two different ways.&lt;br />&#xD;
+&lt;br />&#xD;
+The first consists of disclosing a software’s architecture and its relevant assets, threat model and providing controls to&#xD;
+contrast the latter.&lt;br />&#xD;
+&lt;br />&#xD;
+The second is represented by a number of evidences, collected during the certification evaluation process, that support the&#xD;
+claims about the presence/implementation of trustworthiness attributes, controls and so on.&lt;br />&#xD;
+&lt;br />&#xD;
+Therefore, it is important that a TwByD software development process is structured in a way to incorporate trustworthiness&#xD;
+attributes from the very beginning of the development phase and to document this process to produce information for the&#xD;
+creation of a DTwC.&lt;br /></mainDescription>
+  <purpose>Provide trustworthiness assurances of a software/service at design time (and as a basis of measurement at runtime) in the&#xD;
+form of a machine readable and understandable artefact.</purpose>
+  <howtoStaff>This activity is performed at design time by the system trustworthiness architect with some automated aspects and should be&#xD;
+used at runtime by the system trustworthiness monitor.</howtoStaff>
+  <scope>preparation done in design time and output used as basis for runtime and audit purposes</scope>
+  <usageNotes>During design time the capability is partially automated to capture and assemble the necessary trustworthiness information.</usageNotes>
+</org.eclipse.epf.uma:ProcessDescription>

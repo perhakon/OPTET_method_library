@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-N5fFmqLtxQ2E1QJtY7KVGg" name=",_T6LVgBlLEeOeTN_guLSnBA" guid="-N5fFmqLtxQ2E1QJtY7KVGg" changeDate="2013-10-16T15:19:53.190+0200">
+  <mainDescription>&lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Arial','sans-serif'; BACKGROUND: white; COLOR: black; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: IT; mso-bidi-language: AR-SA&quot;&#xD;
+ lang=&quot;EN-US&quot;>While designing or developing the system, threats the may compromise its activities should be identified and&#xD;
+addressed. Addressing these threats may include eliminating the threat source, implementing controls that reduce the&#xD;
+likelihood of threat happening, implementing controls that allows system recovery or just accept the threats without doing&#xD;
+any actions.&lt;/span></mainDescription>
+  <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The steps may get complicated and automation would be very beneficial&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The analyser may use different methods for identifying threats. The analyser should add any threats to the database&#xD;
+        once they are identified.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It is important to keep the knowledge base up to date, but also the risk analyser should keep in mind that new&#xD;
+        threats appear all the time and should have a plan to deal with such threats as they arise.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  <sections xmi:id="_5oCpABlLEeOeTN_guLSnBA" name="Identify the system and its scope " guid="_5oCpABlLEeOeTN_guLSnBA">
+    <sectionDescription>&lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Arial','sans-serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-GB; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA&quot;>&#xD;
+Identify the system in question and the scope of it. This requires understanding of the purpose and the functions of the&#xD;
+system. Scoping the system is crucial for the consequent tasks in order to cover all the assets and threats.&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_9IuhgBlLEeOeTN_guLSnBA" name="Model assets" guid="_9IuhgBlLEeOeTN_guLSnBA">
+    <sectionDescription>&lt;span&#xD;
+style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-GB; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA&quot;>&#xD;
+Decompose the system into assets. A typology of assets is usually provided by risk management methodologies. Asset&#xD;
+models&amp;nbsp;help with this task.&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_Hvj9UBlMEeOeTN_guLSnBA" name="Identify threats" guid="_Hvj9UBlMEeOeTN_guLSnBA">
+    <sectionDescription>&lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Arial','sans-serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-GB; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA&quot;>&#xD;
+Identify the threats the may compromise the asset functions. The threats are pulled from an existing knowledge base. The&#xD;
+base is not static and can be updated whenever a new threat appears or whenever a new consequence (in terms of asset&#xD;
+functionality) is chosen to be of interest.&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_KwU_oBlMEeOeTN_guLSnBA" name="Select controls" guid="_KwU_oBlMEeOeTN_guLSnBA">
+    <sectionDescription>&lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Arial','sans-serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-GB; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA&quot;>&#xD;
+Controls that block or mitigate threats are also provided in the knowledge base. If the system is automated, the required&#xD;
+controls and their types (e.g. preventive or corrective) are provided alongside the identified threats. The analyser can&#xD;
+choose the controls to be implemented according to their effectiveness and feasibility.&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_MKhswBlMEeOeTN_guLSnBA" name="Approve residual risks" guid="_MKhswBlMEeOeTN_guLSnBA">
+    <sectionDescription>&lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Arial','sans-serif'; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-GB; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA&quot;>&#xD;
+The analyser may not need to address all the threats. Some threats are very unlikely or their consequence is very low to&#xD;
+justify investing in controls. If this is the case, the analyser should take an informed decision to accept these residual&#xD;
+risks and possibly keeps monitoring them in case the situation changes.&lt;/span></sectionDescription>
+  </sections>
+  <purpose>&lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Arial','sans-serif'; BACKGROUND: white; COLOR: black; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: IT; mso-bidi-language: AR-SA&quot;&#xD;
+ lang=&quot;EN-US&quot;>Make sure that the system functions are immune to internal and external threats.&lt;/span></purpose>
+</org.eclipse.epf.uma:TaskDescription>

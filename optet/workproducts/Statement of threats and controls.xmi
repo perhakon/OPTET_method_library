@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-B2Rwr0KSknIIbVYSlR989A" name="new_artifact,_VIdREBlMEeOeTN_guLSnBA" guid="-B2Rwr0KSknIIbVYSlR989A" changeDate="2013-09-09T14:36:37.533+0200">
+  <purpose>&lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Arial','sans-serif'; BACKGROUND: white; COLOR: black; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: IT; mso-bidi-language: AR-SA&quot;&#xD;
+ lang=&quot;EN-US&quot;>This is necessary for auditing and monitoring the system for any residual or new risks.&lt;/span></purpose>
+  <impactOfNotHaving>&lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Arial','sans-serif'; BACKGROUND: white; COLOR: black; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: IT; mso-bidi-language: AR-SA&quot;&#xD;
+ lang=&quot;EN-US&quot;>Without this artifact, it is difficult to track what threats were considered and what controls were&#xD;
+implemented.&lt;/span></impactOfNotHaving>
+</org.eclipse.epf.uma:ArtifactDescription>

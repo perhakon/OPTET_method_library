@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-UW0ITdTkdRIE5O4elQWdMw" name=",_Sr8NcDAYEeOzAouxgBZboA" guid="-UW0ITdTkdRIE5O4elQWdMw" authors="http://www.webcredible.co.uk/user-friendly-resources/web-usability/user-centered-design.shtml" changeDate="2013-10-08T14:52:17.520+0200">
+  <mainDescription>&lt;p&#xD;
+style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(35,122,169); MARGIN-TOP: 1.1em; TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 14px/20px arial, 'trebuchet MS', helvetica, sans-serif; WHITE-SPACE: normal; MARGIN-BOTTOM: 1.1em; COLOR: rgb(255,255,255); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;a style=&quot;COLOR: rgb(255,167,65); CURSOR: pointer; FONT-WEIGHT: bold; TEXT-DECORATION: none&quot;&#xD;
+    href=&quot;http://www.webcredible.co.uk/services/card-sorting.shtml&quot;>&lt;font size=&quot;3&quot;>Card sorting&lt;/font>&lt;/a>&lt;span&#xD;
+    class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>is a method for suggesting intuitive structures/categories. A participant is&#xD;
+    presented with an unsorted pack of index cards. Each card has a statement written on it that relates to a page of the&#xD;
+    site.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(35,122,169); MARGIN-TOP: 1.1em; TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 14px/20px arial, 'trebuchet MS', helvetica, sans-serif; WHITE-SPACE: normal; MARGIN-BOTTOM: 1.1em; COLOR: rgb(255,255,255); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    The participant is asked to sort these cards into groups and then to name these groups. The results of multiple&#xD;
+    individual sorts are then combined and analysed statistically.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:TaskDescription>

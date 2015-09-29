@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ezWUgKcUTPHXmt3yXV3NPg" name="new_artifact,_n4eT4BxUEeOF_P09ig5mEw" guid="-ezWUgKcUTPHXmt3yXV3NPg" changeDate="2013-09-13T11:13:03.511+0200">
+  <purpose>&lt;span&#xD;
+style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-GB; mso-fareast-language: IT; mso-bidi-language: AR-SA'>&#xD;
+The implementation of observation and control interfaces is necessary for monitoring and managing the trustworthiness of&#xD;
+the system, and the trust beliefs of the stakeholders.&lt;/span></purpose>
+  <impactOfNotHaving>Without this artifact, it is not possible to monitor and manage the system trustworthiness and trust beliefs in a&#xD;
+systematic manner.</impactOfNotHaving>
+</org.eclipse.epf.uma:ArtifactDescription>

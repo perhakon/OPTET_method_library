@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-M5SuP3hdOS_y5NKDXU55pA" name="new_role,_uhB_cBxYEeOF_P09ig5mEw" guid="-M5SuP3hdOS_y5NKDXU55pA" changeDate="2013-10-29T11:00:06.812+0100">
+  <mainDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the composition of the different sections of the Digital&#xD;
+    Trustworthy Certificate and thereby fulfilling the following tasks:&lt;br />&#xD;
+    &lt;br />&#xD;
+    For the Service Description section&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        identifying the component model and its associated assets that are contained in a Target of Certification (TOC)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        determining the parts of the TOC that were evaluated as part of the certification issuing activity (or&#xD;
+        certification process) (Target of Evaluation-TOE)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    For the Trustworthy Property Specification, identifying the:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        trustworthiness features related to attributes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        mechanisms that illustrate how trustworthiness is achieved&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        applicable threats to the software and its relevant assets&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        corrective measures or controls that counter the threats&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    For the Evaluation Section:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        collect evidence that supports the TW property specification in design time (evidence can be seen as the relation&#xD;
+        between a TW property and an asset and is computed by a metric.)&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <skills>&lt;p>&#xD;
+    a person filling this role should have these skills:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Understanding of the different elements of Digital TW certificate and how to it is composed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Knowledge of the system and domain&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ability to interact with System Trustworthiness Monitor&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></skills>
+</org.eclipse.epf.uma:RoleDescription>

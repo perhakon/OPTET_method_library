@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-p6C8RNob5anriZh0qqaDMw" name="Creation of a trustworthiness profile,_1eRGYflzEeST16WGbo409w" guid="-p6C8RNob5anriZh0qqaDMw">
+  <mainDescription>&lt;span&#xD;
+style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-GB; mso-fareast-language: IT; mso-bidi-language: AR-SA'>&#xD;
+As part of the requirements engineering activity, the output of the previous capability pattern may be used to define the&#xD;
+set of trustworthiness attributes, metrics and measurements (possibly a weighting thereof) as well as the assurance&#xD;
+properties expected for the to-be-developed software. This activity is important, since it “encodes” the trustworthiness&#xD;
+expectations for the other activities. This capability patterns is planned to be included in a later deliverable.&lt;/span></mainDescription>
+</org.eclipse.epf.uma:ProcessDescription>

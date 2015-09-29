@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-JH6QMZaRhTw0p1Ih7PMhog" name="User-centered_design_process,_hLfx0TAZEeOzAouxgBZboA" guid="-JH6QMZaRhTw0p1Ih7PMhog">
+    <mainDescription>&quot;User-Centered Design (UCD) is a user interface design process that focuses on usability goals, user characteristics,&#xD;
+environment, tasks, and workflow in the design of an interface. UCD follows a series of well-defined methods and techniques&#xD;
+for analysis, design, and evaluation of mainstream hardware, software, and web interfaces. The UCD process is an iterative&#xD;
+process, where design and evaluation steps are built in from the first stage of projects, through implementation.&quot; (Shawn&#xD;
+Lawton Henry and Mary Martinson, Accessibility in User-Centered Design)</mainDescription>
+  </org.eclipse.epf.uma:DeliveryProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-eb-C_IZcPfAgOeOwAdsxYw" name="Focus group,_ooldEDZ9EeOZfq-iuYBfLA" guid="-eb-C_IZcPfAgOeOwAdsxYw">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(35,122,169); MARGIN-TOP: 1.1em; TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 14px/20px arial, 'trebuchet MS', helvetica, sans-serif; WHITE-SPACE: normal; MARGIN-BOTTOM: 1.1em; COLOR: rgb(255,255,255); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    A&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;a&#xD;
+    style=&quot;COLOR: rgb(255,167,65); CURSOR: pointer; FONT-WEIGHT: bold; TEXT-DECORATION: underline&quot;&#xD;
+    href=&quot;http://www.webcredible.co.uk/services/focus-groups.shtml&quot;>&lt;font size=&quot;3&quot;>focus group&lt;/font>&lt;/a>&lt;span&#xD;
+    class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>involves encouraging an invited group of intended/actual users of a site&#xD;
+    (i.e. participants) to share their thoughts, feelings, attitudes and ideas on a certain subject.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(35,122,169); MARGIN-TOP: 1.1em; TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 14px/20px arial, 'trebuchet MS', helvetica, sans-serif; WHITE-SPACE: normal; MARGIN-BOTTOM: 1.1em; COLOR: rgb(255,255,255); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    Organising focus groups within an organisation can also be very useful in&lt;span&#xD;
+    class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;strong>getting buy-in&lt;/strong>&lt;span&#xD;
+    class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>to a project from within that company.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qj7K4stBEljyqJ3CnuEHHg" name="Create mockup,_t_ZwwDZ9EeOZfq-iuYBfLA" guid="-qj7K4stBEljyqJ3CnuEHHg">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; LETTER-SPACING: normal; DISPLAY: inline !important; FONT: 13px/19px sans-serif; WHITE-SPACE: normal; FLOAT: none; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+The most common use of Mockups in software development is to create user interfaces that show the end user what the&#xD;
+software will look like without having to build the software or the underlying functionality. Software UI mockups can range&#xD;
+from very simple hand drawn screen layouts, through realistic bitmaps, to semi functional user interfaces developed in a&#xD;
+software development tool.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-skdOlfUhdQddZE4n5gWtxw" name="Card sorting,_lOQucDaBEeOZfq-iuYBfLA" guid="-skdOlfUhdQddZE4n5gWtxw">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(35,122,169); MARGIN-TOP: 1.1em; TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 14px/20px arial, 'trebuchet MS', helvetica, sans-serif; WHITE-SPACE: normal; MARGIN-BOTTOM: 1.1em; COLOR: rgb(255,255,255); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;a style=&quot;COLOR: rgb(255,167,65); CURSOR: pointer; FONT-WEIGHT: bold; TEXT-DECORATION: none&quot;&#xD;
+    href=&quot;http://www.webcredible.co.uk/services/card-sorting.shtml&quot;>&lt;font size=&quot;3&quot;>Card sorting&lt;/font>&lt;/a>&lt;span&#xD;
+    class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>is a method for suggesting intuitive structures/categories. A participant is&#xD;
+    presented with an unsorted pack of index cards. Each card has a statement written on it that relates to a page of the&#xD;
+    site.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;TEXT-ALIGN: left; TEXT-TRANSFORM: none; BACKGROUND-COLOR: rgb(35,122,169); MARGIN-TOP: 1.1em; TEXT-INDENT: 0px; LETTER-SPACING: normal; FONT: 14px/20px arial, 'trebuchet MS', helvetica, sans-serif; WHITE-SPACE: normal; MARGIN-BOTTOM: 1.1em; COLOR: rgb(255,255,255); WORD-SPACING: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    The participant is asked to sort these cards into groups and then to name these groups. The results of multiple&#xD;
+    individual sorts are then combined and analysed statistically.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-VlzDw9STWGscQvB2GKqU_A" name="Identify threats and controls,_5aqFwFjwEeO0c-NcZCBqwg" guid="-VlzDw9STWGscQvB2GKqU_A">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The steps may get complicated and automation would be very beneficial&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The analyser may use different methods for identifying threats. The analyser should add any threats to the database&#xD;
+        once they are identified.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It is important to keep the knowledge base up to date, but also the risk analyser should keep in mind that new&#xD;
+        threats appear all the time and should have a plan to deal with such threats as they arise.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;span&#xD;
+style=&quot;FONT-FAMILY: 'Arial','sans-serif'; BACKGROUND: white; COLOR: black; FONT-SIZE: 10pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: IT; mso-bidi-language: AR-SA&quot;&#xD;
+ lang=&quot;EN-US&quot;>While designing or developing the system, threats the may compromise its activities should be identified and&#xD;
+addressed. Addressing these threats may include eliminating the threat source, implementing controls that reduce the&#xD;
+likelihood of threat happening, implementing controls that allows system recovery or just accept the threats without doing&#xD;
+any actions.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-la_cH9L-1cGvvdPZQFL0zQ" name="Risk analyser,_5aqFwVjwEeO0c-NcZCBqwg" guid="-la_cH9L-1cGvvdPZQFL0zQ">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying the STS assets&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Model the system assets and topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use the knowledge base and semantics to infer system threats&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use the knowledge base to choose the controls&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Add to the knowledge base new threats and controls (e.g. domain specific ones)&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

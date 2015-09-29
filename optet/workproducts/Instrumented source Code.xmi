@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-zus2nIWtknvXP_MWL34fkg" name="new_artifact,_l7kC8PlyEeST16WGbo409w" guid="-zus2nIWtknvXP_MWL34fkg" changeDate="2015-05-13T15:19:39.227+0200">
+  <purpose>&lt;span lang=&quot;IT&quot;&#xD;
+style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; BACKGROUND: white; COLOR: black; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: IT; mso-fareast-language: IT; mso-bidi-language: AR-SA'>&#xD;
+Source code in java or Opa.&lt;/span></purpose>
+  <impactOfNotHaving>&lt;span lang=&quot;IT&quot;&#xD;
+style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; BACKGROUND: white; COLOR: black; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: IT; mso-fareast-language: IT; mso-bidi-language: AR-SA'>&#xD;
+The certification process won’t be able to evaluate &lt;u>automatically&lt;/u> the design time evidences in the case of java&#xD;
+development.&lt;/span></impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;span lang=&quot;IT&quot;&#xD;
+style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; BACKGROUND: white; COLOR: black; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: IT; mso-fareast-language: IT; mso-bidi-language: AR-SA'>&#xD;
+Outside the trustworthiness preoccupation, it is not needed. For OPA application, it is not needed.&lt;/span></reasonsForNotNeeding>
+</org.eclipse.epf.uma:ArtifactDescription>

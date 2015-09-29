@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_gmLxMDAMEeOzAouxgBZboA" guid="_gmLxMDAMEeOzAouxgBZboA">
+    <subManagers xmi:id="_hMRN4DAZEeOzAouxgBZboA" href="uma://_hLfx0DAZEeOzAouxgBZboA#_hMRN4DAZEeOzAouxgBZboA"/>
+    <resourceDescriptors xmi:id="_pcFeEDAQEeOzAouxgBZboA" id="-xtFjT5NRJ3UpT1vaHPauWw" uri="tasks/Walkthrough.xmi"/>
+    <resourceDescriptors xmi:id="_fLtg0DAYEeOzAouxgBZboA" id="-UW0ITdTkdRIE5O4elQWdMw" uri="tasks/Card%20sorting.xmi"/>
+    <resourceDescriptors xmi:id="_iXan0DAYEeOzAouxgBZboA" id="-0F-8koWWag491Eb2DAE0YQ" uri="tasks/Usability%20testing.xmi"/>
+    <resourceDescriptors xmi:id="_n0MZkDAYEeOzAouxgBZboA" id="-yEAMs-GeuEFUt7MJ3lv-ZA" uri="tasks/Focus%20group.xmi"/>
+    <resourceDescriptors xmi:id="_hLjcMDAZEeOzAouxgBZboA" id="_hLfx0DAZEeOzAouxgBZboA" uri="deliveryprocesses/User-centered_design_process/model.xmi"/>
+    <resourceDescriptors xmi:id="_7tCw8DTGEeOsCLw7x1ZWZA" id="-kymp8M5zVmNQUPtOS0YB7Q" uri="tasks/Create%20mockup.xmi"/>
+    <resourceDescriptors xmi:id="_uI6BEDTHEeOsCLw7x1ZWZA" id="-mH49Y5v8GhRrK29VwdwJzA" uri="workproducts/Evaluation.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_gl0k0DAMEeOzAouxgBZboA" name="User-centered_design" guid="_gl0k0DAMEeOzAouxgBZboA">
+    <methodElementProperty xmi:id="_gmNmYDAMEeOzAouxgBZboA" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gl0k0TAMEeOzAouxgBZboA" name="Content" guid="_gl0k0TAMEeOzAouxgBZboA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gl0k0jAMEeOzAouxgBZboA" name="Categories" guid="_gl0k0jAMEeOzAouxgBZboA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gl0k0zAMEeOzAouxgBZboA" name="Domains" guid="_gl0k0zAMEeOzAouxgBZboA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="__FZWkDAVEeOzAouxgBZboA" name="Design" guid="__FZWkDAVEeOzAouxgBZboA" presentationName="Design" workProducts="_14FScDAVEeOzAouxgBZboA _w3nz0DAWEeOzAouxgBZboA _4kVn4DAWEeOzAouxgBZboA _HxE30DAXEeOzAouxgBZboA">
+            <methodElementProperty xmi:id="_AQU4oDAWEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_EeilgDAWEeOzAouxgBZboA" name="Evaluation" guid="_EeilgDAWEeOzAouxgBZboA" presentationName="Evaluation">
+            <methodElementProperty xmi:id="_FsEvoDAWEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_GkuO4DAWEeOzAouxgBZboA" name="Analysis" guid="_GkuO4DAWEeOzAouxgBZboA" presentationName="Analysis" workProducts="_cBsjQDAVEeOzAouxgBZboA _YhrZIDAVEeOzAouxgBZboA">
+            <methodElementProperty xmi:id="_H37jMDAWEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gl0k1DAMEeOzAouxgBZboA" name="Disciplines" guid="_gl0k1DAMEeOzAouxgBZboA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_F0aBkDZ_EeOZfq-iuYBfLA" name="ucd_activities" guid="_F0aBkDZ_EeOZfq-iuYBfLA" presentationName="UCD Activities" tasks="_Sr8NcDAYEeOzAouxgBZboA _mOOe8DTGEeOsCLw7x1ZWZA _kRQp4DAOEeOzAouxgBZboA _PFHQsDAYEeOzAouxgBZboA _pSP94DAWEeOzAouxgBZboA _8lGoQDAOEeOzAouxgBZboA _YjhQYDAOEeOzAouxgBZboA _IgjsoDAaEeOzAouxgBZboA _sFPC4DAWEeOzAouxgBZboA _h6rWkDAaEeOzAouxgBZboA _u0TK0DAOEeOzAouxgBZboA">
+            <methodElementProperty xmi:id="_KIZmUDZ_EeOZfq-iuYBfLA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gl0k1TAMEeOzAouxgBZboA" name="RoleSets" guid="_gl0k1TAMEeOzAouxgBZboA">
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_2ybasDZ_EeOZfq-iuYBfLA" name="ucd_roles" guid="_2ybasDZ_EeOZfq-iuYBfLA" presentationName="UCD Roles" roles="_FIffEDTEEeOsCLw7x1ZWZA _WT3UADTGEeOsCLw7x1ZWZA _b4n9EDTGEeOsCLw7x1ZWZA _xzEigDTDEeOsCLw7x1ZWZA">
+            <methodElementProperty xmi:id="_5or2IDZ_EeOZfq-iuYBfLA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gl0k1jAMEeOzAouxgBZboA" name="WP Types" guid="_gl0k1jAMEeOzAouxgBZboA">
+          <contentElements xsi:type="org.eclipse.epf.uma:WorkProductType" xmi:id="_PvPTADZ_EeOZfq-iuYBfLA" name="ucd_work_products" guid="_PvPTADZ_EeOZfq-iuYBfLA" presentationName="UCD work products" workProducts="_-8SBYDAWEeOzAouxgBZboA _SsBOIDTHEeOsCLw7x1ZWZA _HxE30DAXEeOzAouxgBZboA _14FScDAVEeOzAouxgBZboA _FbkZADAXEeOzAouxgBZboA _CI35MDAXEeOzAouxgBZboA _DUcmYDAVEeOzAouxgBZboA _VjAPQDAaEeOzAouxgBZboA _YhrZIDAVEeOzAouxgBZboA _w3nz0DAWEeOzAouxgBZboA _OLufsDAaEeOzAouxgBZboA _HM6FsDAVEeOzAouxgBZboA _Lq3ewDAVEeOzAouxgBZboA _PwvH8DAVEeOzAouxgBZboA _4kVn4DAWEeOzAouxgBZboA _cBsjQDAVEeOzAouxgBZboA">
+            <methodElementProperty xmi:id="_TOck0DZ_EeOZfq-iuYBfLA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gl0k1zAMEeOzAouxgBZboA" name="Tools" guid="_gl0k1zAMEeOzAouxgBZboA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gl0k2DAMEeOzAouxgBZboA" name="StandardCategories" guid="_gl0k2DAMEeOzAouxgBZboA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gl0k2TAMEeOzAouxgBZboA" name="CustomCategories" guid="_gl0k2TAMEeOzAouxgBZboA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gl0k2jAMEeOzAouxgBZboA" name="Hidden" guid="_gl0k2jAMEeOzAouxgBZboA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_gl0k2zAMEeOzAouxgBZboA" name="Custom Categories" guid="_gl0k2zAMEeOzAouxgBZboA" categorizedElements="_shEfoDZ_EeOZfq-iuYBfLA"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_shEfoDZ_EeOZfq-iuYBfLA" name="ucd_overview" guid="_shEfoDZ_EeOZfq-iuYBfLA" presentationName="UCD overview">
+            <methodElementProperty xmi:id="_uQzX4DZ_EeOZfq-iuYBfLA" name="me_edited" value="true"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:RoleSet" href="#_2ybasDZ_EeOZfq-iuYBfLA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:WorkProductType" href="#_PvPTADZ_EeOZfq-iuYBfLA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_hLfx0DAZEeOzAouxgBZboA#_hLfx0TAZEeOzAouxgBZboA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Discipline" href="#_F0aBkDZ_EeOZfq-iuYBfLA"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gl0k3DAMEeOzAouxgBZboA" name="CoreContent" guid="_gl0k3DAMEeOzAouxgBZboA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_k9M0wDAMEeOzAouxgBZboA" name="User-centered design" guid="_k9M0wDAMEeOzAouxgBZboA" presentationName="User-centered design" briefDescription="This conent package collects tasks, roles, work products and guidance related to user-centered design">
+          <methodElementProperty xmi:id="_k9Nb0DAMEeOzAouxgBZboA" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_3LOEYDAMEeOzAouxgBZboA" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YjhQYDAOEeOzAouxgBZboA" name="Identify stakeholders" guid="_YjhQYDAOEeOzAouxgBZboA" presentationName="Identify stakeholders" briefDescription="Identify relevant stakeholders to include in requirement elicitation&#xD;&#xA;">
+            <methodElementProperty xmi:id="_iA2GcDAOEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_kRQp4DAOEeOzAouxgBZboA" name="Describe use case" guid="_kRQp4DAOEeOzAouxgBZboA" presentationName="Describe use case" briefDescription="Develop use cases describing use of system&#xD;&#xA;" performedBy="_xzEigDTDEeOsCLw7x1ZWZA _WT3UADTGEeOsCLw7x1ZWZA" mandatoryInput="_HM6FsDAVEeOzAouxgBZboA _PwvH8DAVEeOzAouxgBZboA" output="_VjAPQDAaEeOzAouxgBZboA _OLufsDAaEeOzAouxgBZboA">
+            <methodElementProperty xmi:id="_tM6WQDAOEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_u0TK0DAOEeOzAouxgBZboA" name="Walkthrough" guid="_u0TK0DAOEeOzAouxgBZboA" presentationName="Walkthrough" briefDescription="Perform walkthrough of use case with appropriate stake holder&#xD;&#xA;" performedBy="_FIffEDTEEeOsCLw7x1ZWZA _xzEigDTDEeOsCLw7x1ZWZA" mandatoryInput="_FbkZADAXEeOzAouxgBZboA _VjAPQDAaEeOzAouxgBZboA" output="_SsBOIDTHEeOsCLw7x1ZWZA" optionalInput="_w3nz0DAWEeOzAouxgBZboA _OLufsDAaEeOzAouxgBZboA">
+            <methodElementProperty xmi:id="_pcDo4DAQEeOzAouxgBZboA" name="me_edited" value="true"/>
+            <presentation xmi:id="-xtFjT5NRJ3UpT1vaHPauWw" href="uma://-xtFjT5NRJ3UpT1vaHPauWw#-xtFjT5NRJ3UpT1vaHPauWw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8lGoQDAOEeOzAouxgBZboA" name="Heuristic evaluation" guid="_8lGoQDAOEeOzAouxgBZboA" presentationName="Heuristic evaluation">
+            <methodElementProperty xmi:id="_ZuJW0DAWEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_DUcmYDAVEeOzAouxgBZboA" name="Personas" guid="_DUcmYDAVEeOzAouxgBZboA" presentationName="Personas">
+            <methodElementProperty xmi:id="_Fq12ADAVEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_HM6FsDAVEeOzAouxgBZboA" name="User Categories List" guid="_HM6FsDAVEeOzAouxgBZboA" presentationName="User Categories List">
+            <methodElementProperty xmi:id="_Ieaw4DAVEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Lq3ewDAVEeOzAouxgBZboA" name="User Categories Matrix with knowledge, experience, and skill (KES)" guid="_Lq3ewDAVEeOzAouxgBZboA" presentationName="User Categories Matrix with knowledge, experience, and skill (KES)">
+            <methodElementProperty xmi:id="_MdyJcDAVEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_PwvH8DAVEeOzAouxgBZboA" name="User task list" guid="_PwvH8DAVEeOzAouxgBZboA" presentationName="User task list">
+            <methodElementProperty xmi:id="_SLqSQDAVEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_YhrZIDAVEeOzAouxgBZboA" name="Scenario" guid="_YhrZIDAVEeOzAouxgBZboA" presentationName="Scenario">
+            <methodElementProperty xmi:id="_aB2ycDAVEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_cBsjQDAVEeOzAouxgBZboA" name="Workflow" guid="_cBsjQDAVEeOzAouxgBZboA" presentationName="Workflow">
+            <methodElementProperty xmi:id="_cjJDcDAVEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_14FScDAVEeOzAouxgBZboA" name="Navigation Design" guid="_14FScDAVEeOzAouxgBZboA" presentationName="Navigation Design">
+            <methodElementProperty xmi:id="_-GEnkDAVEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_pSP94DAWEeOzAouxgBZboA" name="Guidelines review" guid="_pSP94DAWEeOzAouxgBZboA" presentationName="Guidelines review">
+            <methodElementProperty xmi:id="_qhRVwDAWEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_sFPC4DAWEeOzAouxgBZboA" name="Usability testing" guid="_sFPC4DAWEeOzAouxgBZboA" presentationName="Usability testing">
+            <methodElementProperty xmi:id="_thgMkDAWEeOzAouxgBZboA" name="me_edited" value="true"/>
+            <presentation xmi:id="-0F-8koWWag491Eb2DAE0YQ" href="uma://-0F-8koWWag491Eb2DAE0YQ#-0F-8koWWag491Eb2DAE0YQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_w3nz0DAWEeOzAouxgBZboA" name="Storyboard" guid="_w3nz0DAWEeOzAouxgBZboA" presentationName="Storyboard">
+            <methodElementProperty xmi:id="_ymLAUDAWEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_4kVn4DAWEeOzAouxgBZboA" name="Wireframe" guid="_4kVn4DAWEeOzAouxgBZboA" presentationName="Wireframe">
+            <methodElementProperty xmi:id="_7UQx0DAWEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_-8SBYDAWEeOzAouxgBZboA" name="Detailed design" guid="_-8SBYDAWEeOzAouxgBZboA" presentationName="Detailed design">
+            <methodElementProperty xmi:id="_AtW9cDAXEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_CI35MDAXEeOzAouxgBZboA" name="Paper prototype" guid="_CI35MDAXEeOzAouxgBZboA" presentationName="Paper prototype">
+            <methodElementProperty xmi:id="_DhTEsDAXEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_FbkZADAXEeOzAouxgBZboA" name="Online mockup" guid="_FbkZADAXEeOzAouxgBZboA" presentationName="Online mockup">
+            <methodElementProperty xmi:id="_F-36YDAXEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_HxE30DAXEeOzAouxgBZboA" name="Functional online prototype" guid="_HxE30DAXEeOzAouxgBZboA" presentationName="Functional online prototype">
+            <methodElementProperty xmi:id="_IWzbEDAXEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_PFHQsDAYEeOzAouxgBZboA" name="Focus group" guid="_PFHQsDAYEeOzAouxgBZboA" presentationName="Focus group" performedBy="_FIffEDTEEeOsCLw7x1ZWZA _xzEigDTDEeOsCLw7x1ZWZA" output="_HM6FsDAVEeOzAouxgBZboA _PwvH8DAVEeOzAouxgBZboA">
+            <methodElementProperty xmi:id="_QWHlkDAYEeOzAouxgBZboA" name="me_edited" value="true"/>
+            <presentation xmi:id="-yEAMs-GeuEFUt7MJ3lv-ZA" href="uma://-yEAMs-GeuEFUt7MJ3lv-ZA#-yEAMs-GeuEFUt7MJ3lv-ZA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Sr8NcDAYEeOzAouxgBZboA" name="Card sorting" guid="_Sr8NcDAYEeOzAouxgBZboA" presentationName="Card sorting">
+            <methodElementProperty xmi:id="_VH1oIDAYEeOzAouxgBZboA" name="me_edited" value="true"/>
+            <presentation xmi:id="-UW0ITdTkdRIE5O4elQWdMw" href="uma://-UW0ITdTkdRIE5O4elQWdMw#-UW0ITdTkdRIE5O4elQWdMw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_IgjsoDAaEeOzAouxgBZboA" name="Refine use case" guid="_IgjsoDAaEeOzAouxgBZboA" presentationName="Refine use case" mandatoryInput="_OLufsDAaEeOzAouxgBZboA" output="_OLufsDAaEeOzAouxgBZboA">
+            <methodElementProperty xmi:id="_TRPoADAaEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_OLufsDAaEeOzAouxgBZboA" name="Use case" guid="_OLufsDAaEeOzAouxgBZboA" presentationName="Use case">
+            <methodElementProperty xmi:id="_PovQQDAaEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_VjAPQDAaEeOzAouxgBZboA" name="Requriement set" guid="_VjAPQDAaEeOzAouxgBZboA" presentationName="Requriement set">
+            <methodElementProperty xmi:id="_XWMrMDAaEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_h6rWkDAaEeOzAouxgBZboA" name="User analysis" guid="_h6rWkDAaEeOzAouxgBZboA" presentationName="User analysis">
+            <methodElementProperty xmi:id="_lHaYUDAaEeOzAouxgBZboA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_xzEigDTDEeOsCLw7x1ZWZA" name="Usability expert" guid="_xzEigDTDEeOsCLw7x1ZWZA" presentationName="Usability expert">
+            <methodElementProperty xmi:id="_5j8d0DTDEeOsCLw7x1ZWZA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_FIffEDTEEeOsCLw7x1ZWZA" name="End user" guid="_FIffEDTEEeOsCLw7x1ZWZA" presentationName="End user" briefDescription="A user representative for the target product">
+            <methodElementProperty xmi:id="_HXGEoDTEEeOsCLw7x1ZWZA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_WT3UADTGEeOsCLw7x1ZWZA" name="Requirements engineer" guid="_WT3UADTGEeOsCLw7x1ZWZA" presentationName="Requirements engineer">
+            <methodElementProperty xmi:id="_YKA9UDTGEeOsCLw7x1ZWZA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_b4n9EDTGEeOsCLw7x1ZWZA" name="Software developer" guid="_b4n9EDTGEeOsCLw7x1ZWZA" presentationName="Software developer">
+            <methodElementProperty xmi:id="_eCaUEDTGEeOsCLw7x1ZWZA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_mOOe8DTGEeOsCLw7x1ZWZA" name="Create mockup" guid="_mOOe8DTGEeOsCLw7x1ZWZA" presentationName="Create mockup" briefDescription="Create a preliminary sketch of the target product." output="_FbkZADAXEeOzAouxgBZboA" optionalInput="_VjAPQDAaEeOzAouxgBZboA _OLufsDAaEeOzAouxgBZboA">
+            <methodElementProperty xmi:id="_7s_GkDTGEeOsCLw7x1ZWZA" name="me_edited" value="true"/>
+            <presentation xmi:id="-kymp8M5zVmNQUPtOS0YB7Q" href="uma://-kymp8M5zVmNQUPtOS0YB7Q#-kymp8M5zVmNQUPtOS0YB7Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_SsBOIDTHEeOsCLw7x1ZWZA" name="Evaluation" guid="_SsBOIDTHEeOsCLw7x1ZWZA" presentationName="Evaluation" briefDescription="An evaluation is a report or or some other feedback artefact on the suitability according to purpose of the target product">
+            <methodElementProperty xmi:id="_uI2WsDTHEeOsCLw7x1ZWZA" name="me_edited" value="true"/>
+            <presentation xmi:id="-mH49Y5v8GhRrK29VwdwJzA" href="uma://-mH49Y5v8GhRrK29VwdwJzA#-mH49Y5v8GhRrK29VwdwJzA"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gl0k3TAMEeOzAouxgBZboA" name="CapabilityPatterns" guid="_gl0k3TAMEeOzAouxgBZboA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gl0k3jAMEeOzAouxgBZboA" name="DeliveryProcesses" guid="_gl0k3jAMEeOzAouxgBZboA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_hLfx0DAZEeOzAouxgBZboA" href="uma://_hLfx0DAZEeOzAouxgBZboA#_hLfx0DAZEeOzAouxgBZboA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gl0k3zAMEeOzAouxgBZboA" name="ProcessContributions" guid="_gl0k3zAMEeOzAouxgBZboA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

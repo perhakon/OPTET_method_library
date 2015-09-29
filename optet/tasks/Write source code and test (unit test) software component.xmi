@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-eoSQFZmfEom3eMBp9UvXtQ" name=",_wz8XMPlxEeST16WGbo409w" guid="-eoSQFZmfEom3eMBp9UvXtQ" changeDate="2015-05-13T15:13:28.377+0200">
+  <mainDescription>&lt;P style=&quot;BACKGROUND: white&quot;>&lt;SPAN lang=EN-US style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; BACKGROUND: white; COLOR: black; mso-ansi-language: EN-US'>After the detailed design, the software trustworthy developer has to develop the component with the selected language. He has to develop specifically the trustworthiness features. The trustworthiness profile gives him some indications for the whole code quality (especially a list of coding rules) he has to follow in order to reach the trustworthiness goal. In the case of java, he writes, in parallel, the unit tests. &lt;/SPAN>&lt;SPAN lang=EN-US style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; COLOR: black; mso-ansi-language: EN-US; mso-fareast-language: EN-GB'>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P></mainDescription>
+  <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        In java, use an Eclipse platform with plugins to write the source code and a specific framework for unit tests.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        In Opa, use of OPA environment provides assurances for code quality and unit tests without performing these&#xD;
+        activities. The assurances come directly from the OPA compiler.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  <sections xmi:id="_5-rBYPlxEeST16WGbo409w" name="Configure the development environment" guid="_5-rBYPlxEeST16WGbo409w">
+    <sectionDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt&quot;>&#xD;
+    &lt;span lang=&quot;IT&quot; style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-language: EN-GB'>For the new&#xD;
+    component, the development environment shall be configured with the trustworthiness profile in order to&#xD;
+    activate/deactivate the applicable plugins and for each applicable plugin, to set its configuration.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm 0pt&quot;>&#xD;
+    &lt;span lang=&quot;IT&quot;&#xD;
+    style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-language: EN-GB; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: IT; mso-bidi-language: AR-SA'>&#xD;
+    In case of Opa development, this step doesn’t make sense.&lt;/span>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_9AcwUPlxEeST16WGbo409w" name="Write the source code of the component  " guid="_9AcwUPlxEeST16WGbo409w">
+    <sectionDescription>&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto&quot;>&#xD;
+    &lt;span lang=&quot;IT&quot; style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-language: EN-GB'>For the new&#xD;
+    component, develop in java or in opa respecting the trustworthiness profile. It means to use specific eclipse plugins&#xD;
+    (in java case) with adding the specific information in source code. Develop in java or in opa the trustworthy&#xD;
+    features.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0cm; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto&quot;>&#xD;
+    &lt;span lang=&quot;IT&quot;&#xD;
+    style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-language: EN-GB; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: IT; mso-bidi-language: AR-SA'>&#xD;
+    For the whole source code, develop the unit test. In Opa, the unit tests are not useful. Other tests like integration&#xD;
+    tests or functional tests shall be defined but only if they can be run in Eclipse environment.&lt;/span>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_AGhJYPlyEeST16WGbo409w" name="Test the component" guid="_AGhJYPlyEeST16WGbo409w">
+    <sectionDescription>&lt;span lang=&quot;IT&quot;&#xD;
+style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-language: EN-GB; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: IT; mso-bidi-language: AR-SA'>&#xD;
+For all tests, the results shall be OK and the unit test coverage shall be compliant with the trustworthiness&#xD;
+profile.&lt;/span></sectionDescription>
+  </sections>
+  <purpose>Implement a component in a chosen language (java or Opa), unitary tests with unit tests (for java only).</purpose>
+</org.eclipse.epf.uma:TaskDescription>

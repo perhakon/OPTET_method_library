@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-IYvkUNYHyjWIpjRXm1-GKQ" name=",_TRuDwBoOEeOeTN_guLSnBA" guid="-IYvkUNYHyjWIpjRXm1-GKQ" authors="AUEB, IBM" changeDate="2013-09-10T13:44:58.873+0200">
+  <mainDescription>System trustworthiness is measured while designing, developing, or operating the system.</mainDescription>
+  <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The skills required are similar to those of the risk analyzer in the Capability Threat and mitigation controls&#xD;
+        identification.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Many (most) of the tasks at runtime can be automated.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  <sections xmi:id="_E9kMMBoPEeOeTN_guLSnBA" name="Import or Update the System status " guid="_E9kMMBoPEeOeTN_guLSnBA">
+    <sectionDescription>Identify the current system assets and topology.</sectionDescription>
+  </sections>
+  <sections xmi:id="_Huqa0BoPEeOeTN_guLSnBA" name="Import or Update Trustworthiness Certificates" guid="_Huqa0BoPEeOeTN_guLSnBA">
+    <sectionDescription>Import or update the trustworthiness certificate of each asset in the system.</sectionDescription>
+  </sections>
+  <sections xmi:id="_KWYrABoPEeOeTN_guLSnBA" name="Import or Update the Threats Activity" guid="_KWYrABoPEeOeTN_guLSnBA">
+    <sectionDescription>Using a designed threat model, or updating this model with new threats that have been identified or others that are not&#xD;
+active.</sectionDescription>
+  </sections>
+  <sections xmi:id="_M-sxEBoPEeOeTN_guLSnBA" name="Import or Update Controls" guid="_M-sxEBoPEeOeTN_guLSnBA">
+    <sectionDescription>The designed threat model already contains a set of controls for each pre-identified threat. In some cases these exiting&#xD;
+controls need to be modified. If new threats are identified, a set of controls should e allocated to the new threats.</sectionDescription>
+  </sections>
+  <sections xmi:id="_OixL4BoPEeOeTN_guLSnBA" name="Compute Trustworthiness" guid="_OixL4BoPEeOeTN_guLSnBA">
+    <sectionDescription>Invoke the trustworthiness calculator.</sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    Provide an architect or monitor with timely trustworthiness metrics.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

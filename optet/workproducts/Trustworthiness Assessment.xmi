@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-h2omNcAIWagUIqn0J8v-bw" name="new_artifact,_bJeYQBoQEeOeTN_guLSnBA" guid="-h2omNcAIWagUIqn0J8v-bw" changeDate="2013-09-10T14:00:00.832+0200">
+  <purpose>This is an important function to assist the designer/architect of a trustworthy system in meeting trustworthiness&#xD;
+requirements. This is necessary for managing the trustworthiness of the system, and for balancing the trust and&#xD;
+trustworthiness at runtime.</purpose>
+  <impactOfNotHaving>Without this artifact, it is difficult to identify an extensive set of threats that may impact the system.</impactOfNotHaving>
+</org.eclipse.epf.uma:ArtifactDescription>

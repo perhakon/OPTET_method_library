@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-6M1DvUvNUxnuKYOhzLllVg" name="new_role,_02PcwBxSEeOF_P09ig5mEw" guid="-6M1DvUvNUxnuKYOhzLllVg" changeDate="2015-05-13T10:56:34.928+0200">
+  <mainDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Design the Observation and Management interfaces for each asset in the STS&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Create the System Trust and Trustworthiness Observation and Management Interface document&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure that the interfaces are implemented by the system developers&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <skills>&lt;p>&#xD;
+    A person filling the this role should have these skills:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Knowledge of the system and domain&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Knowledge of software engineering design and development&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Knowledge of system properties related to trustworthiness&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Knowledge of runtime system maintenance&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></skills>
+  <assignmentApproaches>&lt;span&#xD;
+style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-GB; mso-fareast-language: IT; mso-bidi-language: AR-SA'>&#xD;
+This role should be assigned to the leader of the system development team. A person in this role should be informed about&#xD;
+decisions taken by the management related to the planned runtime monitoring and management approaches and techniques to be&#xD;
+used for the system.&lt;/span></assignmentApproaches>
+</org.eclipse.epf.uma:RoleDescription>

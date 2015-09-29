@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:org.eclipse.epf.diagram.model="http://www.eclipse.org/epf/diagram/1.0.0/diagram.ecore" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_pUcKlDaKEeOZfq-iuYBfLA" autoLayout="true">
+    <linkedElement xmi:type="org.eclipse.epf.uma:Phase" href="uma://_pTUwQDaKEeOZfq-iuYBfLA#_pTV-aDaKEeOZfq-iuYBfLA"/>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="_pUcKlTaKEeOZfq-iuYBfLA" type="ADD" element="_pUcKlDaKEeOZfq-iuYBfLA" name="New Phase_2" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_pUcKljaKEeOZfq-iuYBfLA"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_pUcKlzaKEeOZfq-iuYBfLA"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_pUcKmDaKEeOZfq-iuYBfLA"/>
+  </notation:Diagram>
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_pUcKmTaKEeOZfq-iuYBfLA" autoLayout="true">
+    <linkedElement xmi:type="org.eclipse.epf.uma:Phase" href="uma://_pTUwQDaKEeOZfq-iuYBfLA#_pTV-bDaKEeOZfq-iuYBfLA"/>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="_pUcKmjaKEeOZfq-iuYBfLA" type="ADD" element="_pUcKmTaKEeOZfq-iuYBfLA" name="Plan the human centered process" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_pUcKmzaKEeOZfq-iuYBfLA"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_pUcKnDaKEeOZfq-iuYBfLA"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_pUcKnTaKEeOZfq-iuYBfLA"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_caQ2UDaOEeOZfq-iuYBfLA" name="TWbyD + User-centered_design_process">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_caQ2UTaOEeOZfq-iuYBfLA" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_caQ2UjaOEeOZfq-iuYBfLA" key="uri" value="uma://_pTUwQDaKEeOZfq-iuYBfLA#_pTUwQTaKEeOZfq-iuYBfLA"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_caQ2UzaOEeOZfq-iuYBfLA" key="type" value="Activity"/>
+    </eAnnotations>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_cav-gDaOEeOZfq-iuYBfLA" name="Plan the human centered process" outgoing="_cawlkzaOEeOZfq-iuYBfLA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cav-gTaOEeOZfq-iuYBfLA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cav-gjaOEeOZfq-iuYBfLA" key="uri" value="uma://_pTUwQDaKEeOZfq-iuYBfLA#_pTV-bDaKEeOZfq-iuYBfLA"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cav-gzaOEeOZfq-iuYBfLA" key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_cav-hDaOEeOZfq-iuYBfLA" name="Specify the context of use" outgoing="_cawlkjaOEeOZfq-iuYBfLA" incoming="_cawlkzaOEeOZfq-iuYBfLA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cav-hTaOEeOZfq-iuYBfLA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cav-hjaOEeOZfq-iuYBfLA" key="uri" value="uma://_pTUwQDaKEeOZfq-iuYBfLA#_pTV-YDaKEeOZfq-iuYBfLA"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cav-hzaOEeOZfq-iuYBfLA" key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_cav-iDaOEeOZfq-iuYBfLA" name="Specify user and organisational requirements" outgoing="_cawlkDaOEeOZfq-iuYBfLA" incoming="_cawlkjaOEeOZfq-iuYBfLA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cav-iTaOEeOZfq-iuYBfLA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cav-ijaOEeOZfq-iuYBfLA" key="uri" value="uma://_pTUwQDaKEeOZfq-iuYBfLA#_pTWlcDaKEeOZfq-iuYBfLA"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cav-izaOEeOZfq-iuYBfLA" key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_cav-jDaOEeOZfq-iuYBfLA" name="Produce design solutions" outgoing="_cawlkTaOEeOZfq-iuYBfLA" incoming="_cawlkDaOEeOZfq-iuYBfLA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cav-jTaOEeOZfq-iuYBfLA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cav-jjaOEeOZfq-iuYBfLA" key="uri" value="uma://_pTUwQDaKEeOZfq-iuYBfLA#_pTV-aDaKEeOZfq-iuYBfLA"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cav-jzaOEeOZfq-iuYBfLA" key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_cav-kDaOEeOZfq-iuYBfLA" name="Evaluate designs against user requirements" incoming="_cawlkTaOEeOZfq-iuYBfLA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cav-kTaOEeOZfq-iuYBfLA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cav-kjaOEeOZfq-iuYBfLA" key="uri" value="uma://_pTUwQDaKEeOZfq-iuYBfLA#_pTVXVTaKEeOZfq-iuYBfLA"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cav-kzaOEeOZfq-iuYBfLA" key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cawlkDaOEeOZfq-iuYBfLA" source="_cav-iDaOEeOZfq-iuYBfLA" target="_cav-jDaOEeOZfq-iuYBfLA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cawlkTaOEeOZfq-iuYBfLA" source="_cav-jDaOEeOZfq-iuYBfLA" target="_cav-kDaOEeOZfq-iuYBfLA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cawlkjaOEeOZfq-iuYBfLA" source="_cav-hDaOEeOZfq-iuYBfLA" target="_cav-iDaOEeOZfq-iuYBfLA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cawlkzaOEeOZfq-iuYBfLA" source="_cav-gDaOEeOZfq-iuYBfLA" target="_cav-hDaOEeOZfq-iuYBfLA"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_caQ2VDaOEeOZfq-iuYBfLA" type="AD" element="_caQ2UDaOEeOZfq-iuYBfLA" name="TWbyD + User-centered_design_process" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_caQ2VTaOEeOZfq-iuYBfLA"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_caQ2VjaOEeOZfq-iuYBfLA"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_caQ2VzaOEeOZfq-iuYBfLA"/>
+  </notation:Diagram>
+</xmi:XMI>

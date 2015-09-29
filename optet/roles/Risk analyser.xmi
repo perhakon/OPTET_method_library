@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-gJ1twOyTUyXOaB6LE-gI5A" name="new_role,_cCa54BlJEeOeTN_guLSnBA" guid="-gJ1twOyTUyXOaB6LE-gI5A" changeDate="2013-09-09T14:15:34.280+0200">
+  <mainDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying the STS assets&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Model the system assets and topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use the knowledge base and semantics to infer system threats&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use the knowledge base to choose the controls&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Add to the knowledge base new threats and controls (e.g. domain specific ones)&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <skills>&lt;p>&#xD;
+    A person filling the this role should have these skills:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Knowledge of Risk analysis and management process&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Asset modelling techniques&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Knowledge of the system and domain&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></skills>
+  <assignmentApproaches>&lt;p>&#xD;
+    This role can be assigned in the following ways:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Assign one (or more) team member who is already playing another role in the project (e.g. designer, developer) to&#xD;
+        perform this role. This is particularly suitable for small teams.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Assign one or more staff members to perform only this role. This works well in large teams. It is also useful to&#xD;
+        separate responsibilities amongst staff for risk analysis and controls implementation.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></assignmentApproaches>
+</org.eclipse.epf.uma:RoleDescription>

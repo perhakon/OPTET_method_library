@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_AUEi8CeAEeOAPaUiQu1yKg" guid="_AUEi8CeAEeOAPaUiQu1yKg">
+    <resourceDescriptors xmi:id="_AUEi8SeAEeOAPaUiQu1yKg" id="-yMWOMRzyPMKCU633Ya0PYw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_AQlxICeAEeOAPaUiQu1yKg" name="TW_openup_lifecycle" guid="_AQlxICeAEeOAPaUiQu1yKg">
+    <methodElementProperty xmi:id="_ASkHECeAEeOAPaUiQu1yKg" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_Ev6cICeAEeOAPaUiQu1yKg" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_AQlxMieAEeOAPaUiQu1yKg" name="Inception Phase" guid="_AQlxMieAEeOAPaUiQu1yKg">
+      <methodElementProperty xmi:id="_ATwZ4CeAEeOAPaUiQu1yKg" name="pkg_loadCheck" value="true"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_AQlxNieAEeOAPaUiQu1yKg" name="inception_phase_iteration" guid="_AQlxNieAEeOAPaUiQu1yKg">
+        <methodElementProperty xmi:id="_ATwZ4SeAEeOAPaUiQu1yKg" name="pkg_loadCheck" value="true"/>
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_AQmYMCeAEeOAPaUiQu1yKg" name="inception_phase_iteration" guid="_AQmYMCeAEeOAPaUiQu1yKg" presentationName="Inception Iteration [1..n]" superActivities="_AQlxNCeAEeOAPaUiQu1yKg" variabilityType="extends">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_h0Gs8NONEdyqlogshP8l4g#_h0Gs8dONEdyqlogshP8l4g"/>
+        </processElements>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_AQlxNCeAEeOAPaUiQu1yKg" name="Inception Phase" guid="_AQlxNCeAEeOAPaUiQu1yKg" presentationName="Inception Phase" superActivities="_AQlxISeAEeOAPaUiQu1yKg" breakdownElements="_AQmYMCeAEeOAPaUiQu1yKg _AQlxMyeAEeOAPaUiQu1yKg">
+        <methodElementProperty xmi:id="_mxGpkCeAEeOAPaUiQu1yKg" name="wbe_GlobalPresentedAfter" value="_AQlxISeAEeOAPaUiQu1yKg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_AQlxMyeAEeOAPaUiQu1yKg" name="lifecycle_objectives_milestone" guid="_AQlxMyeAEeOAPaUiQu1yKg" presentationName="Lifecycle Objectives Milestone" superActivities="_AQlxNCeAEeOAPaUiQu1yKg" linkToPredecessor="_AQlxNSeAEeOAPaUiQu1yKg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_AQlxNSeAEeOAPaUiQu1yKg" guid="_AQlxNSeAEeOAPaUiQu1yKg" pred="_AQmYMCeAEeOAPaUiQu1yKg"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_AQmYMSeAEeOAPaUiQu1yKg" name="Elaboration Phase" guid="_AQmYMSeAEeOAPaUiQu1yKg">
+      <methodElementProperty xmi:id="_ATwZ4ieAEeOAPaUiQu1yKg" name="pkg_loadCheck" value="true"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_AQmYNieAEeOAPaUiQu1yKg" name="elaboration_phase_iteration" guid="_AQmYNieAEeOAPaUiQu1yKg">
+        <methodElementProperty xmi:id="_ATwZ4yeAEeOAPaUiQu1yKg" name="pkg_loadCheck" value="true"/>
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_AQmYNyeAEeOAPaUiQu1yKg" name="elaboration_phase_iteration" guid="_AQmYNyeAEeOAPaUiQu1yKg" presentationName="Elaboration Iteration [1..n]" superActivities="_AQmYOCeAEeOAPaUiQu1yKg" variabilityType="extends">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_aUsVENONEdyqlogshP8l4g#_aUsVEdONEdyqlogshP8l4g"/>
+        </processElements>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_Wq3kABuGEeOF_P09ig5mEw" href="uma://_Wq3kABuGEeOF_P09ig5mEw#_Wq3kABuGEeOF_P09ig5mEw"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_AQmYOCeAEeOAPaUiQu1yKg" name="Elaboration Phase" guid="_AQmYOCeAEeOAPaUiQu1yKg" presentationName="Elaboration Phase" superActivities="_AQlxISeAEeOAPaUiQu1yKg" linkToPredecessor="_AQmYNSeAEeOAPaUiQu1yKg _AQmYNCeAEeOAPaUiQu1yKg">
+        <methodElementProperty xmi:id="_mxGpkSeAEeOAPaUiQu1yKg" name="wbe_GlobalPresentedAfter" value="_AQlxNCeAEeOAPaUiQu1yKg"/>
+        <breakdownElements xsi:type="org.eclipse.epf.uma:Iteration" href="#_AQmYNyeAEeOAPaUiQu1yKg"/>
+        <breakdownElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_Wq3kABuGEeOF_P09ig5mEw#_Wq3kARuGEeOF_P09ig5mEw"/>
+        <breakdownElements xsi:type="org.eclipse.epf.uma:Milestone" href="#_AQmYMyeAEeOAPaUiQu1yKg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_AQmYNSeAEeOAPaUiQu1yKg" guid="_AQmYNSeAEeOAPaUiQu1yKg" pred="_AQlxMyeAEeOAPaUiQu1yKg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_AQmYNCeAEeOAPaUiQu1yKg" guid="_AQmYNCeAEeOAPaUiQu1yKg" pred="_AQlxNCeAEeOAPaUiQu1yKg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_AQmYMyeAEeOAPaUiQu1yKg" name="lifecycle_architecture_milestone" guid="_AQmYMyeAEeOAPaUiQu1yKg" presentationName="Lifecycle Architecture Milestone" superActivities="_AQmYOCeAEeOAPaUiQu1yKg" linkToPredecessor="_AQmYMieAEeOAPaUiQu1yKg">
+        <methodElementProperty xmi:id="_sJPL4CeAEeOAPaUiQu1yKg" name="wbe_GlobalPresentedAfter" value="_Wq3kARuGEeOF_P09ig5mEw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_AQmYMieAEeOAPaUiQu1yKg" guid="_AQmYMieAEeOAPaUiQu1yKg" pred="_AQmYNyeAEeOAPaUiQu1yKg"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_AQlxKieAEeOAPaUiQu1yKg" name="Construction Phase" guid="_AQlxKieAEeOAPaUiQu1yKg">
+      <methodElementProperty xmi:id="_ATwZ5CeAEeOAPaUiQu1yKg" name="pkg_loadCheck" value="true"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_AQlxLieAEeOAPaUiQu1yKg" name="construction_phase_iteration" guid="_AQlxLieAEeOAPaUiQu1yKg">
+        <methodElementProperty xmi:id="_ATwZ5SeAEeOAPaUiQu1yKg" name="pkg_loadCheck" value="true"/>
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_AQlxLyeAEeOAPaUiQu1yKg" name="construction_phase_iteration" guid="_AQlxLyeAEeOAPaUiQu1yKg" presentationName="Construction Iteration [1..n]" superActivities="_AQlxMCeAEeOAPaUiQu1yKg" variabilityType="extends">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_RQi0ANONEdyqlogshP8l4g#_RQi0AdONEdyqlogshP8l4g"/>
+        </processElements>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_AQlxMCeAEeOAPaUiQu1yKg" name="Construction Phase" guid="_AQlxMCeAEeOAPaUiQu1yKg" presentationName="Construction Phase" superActivities="_AQlxISeAEeOAPaUiQu1yKg" linkToPredecessor="_AQlxMSeAEeOAPaUiQu1yKg _AQlxLSeAEeOAPaUiQu1yKg" breakdownElements="_AQlxLyeAEeOAPaUiQu1yKg _AQlxLCeAEeOAPaUiQu1yKg">
+        <methodElementProperty xmi:id="_qFM3kCeAEeOAPaUiQu1yKg" name="wbe_GlobalPresentedAfter" value="_Wq3kARuGEeOF_P09ig5mEw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_AQlxMSeAEeOAPaUiQu1yKg" guid="_AQlxMSeAEeOAPaUiQu1yKg" pred="_AQmYMyeAEeOAPaUiQu1yKg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_AQlxLSeAEeOAPaUiQu1yKg" guid="_AQlxLSeAEeOAPaUiQu1yKg" pred="_AQmYOCeAEeOAPaUiQu1yKg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_AQlxLCeAEeOAPaUiQu1yKg" name="initial_operational_capability_milestone" guid="_AQlxLCeAEeOAPaUiQu1yKg" presentationName="Initial Operational Capability Milestone" superActivities="_AQlxMCeAEeOAPaUiQu1yKg" linkToPredecessor="_AQlxKyeAEeOAPaUiQu1yKg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_AQlxKyeAEeOAPaUiQu1yKg" guid="_AQlxKyeAEeOAPaUiQu1yKg" pred="_AQlxLyeAEeOAPaUiQu1yKg"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_AQlxIieAEeOAPaUiQu1yKg" name="Transition Phase" guid="_AQlxIieAEeOAPaUiQu1yKg">
+      <methodElementProperty xmi:id="_ATwZ5ieAEeOAPaUiQu1yKg" name="pkg_loadCheck" value="true"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_AQlxJyeAEeOAPaUiQu1yKg" name="transition_phase_iteration" guid="_AQlxJyeAEeOAPaUiQu1yKg">
+        <methodElementProperty xmi:id="_ATwZ5yeAEeOAPaUiQu1yKg" name="pkg_loadCheck" value="true"/>
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_AQlxKCeAEeOAPaUiQu1yKg" name="transition_phase_iteration" guid="_AQlxKCeAEeOAPaUiQu1yKg" presentationName="Transition Iteration [1..n]" superActivities="_AQlxJSeAEeOAPaUiQu1yKg" variabilityType="extends">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_pzQU0NONEdyqlogshP8l4g#_pzQU0dONEdyqlogshP8l4g"/>
+        </processElements>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_AQlxJSeAEeOAPaUiQu1yKg" name="Transition Phase" guid="_AQlxJSeAEeOAPaUiQu1yKg" presentationName="Transition Phase" superActivities="_AQlxISeAEeOAPaUiQu1yKg" linkToPredecessor="_AQlxKSeAEeOAPaUiQu1yKg _AQlxJieAEeOAPaUiQu1yKg" breakdownElements="_AQlxKCeAEeOAPaUiQu1yKg _AQlxJCeAEeOAPaUiQu1yKg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_AQlxKSeAEeOAPaUiQu1yKg" guid="_AQlxKSeAEeOAPaUiQu1yKg" pred="_AQlxLCeAEeOAPaUiQu1yKg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_AQlxJieAEeOAPaUiQu1yKg" guid="_AQlxJieAEeOAPaUiQu1yKg" pred="_AQlxMCeAEeOAPaUiQu1yKg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_AQlxJCeAEeOAPaUiQu1yKg" name="product_release_milestone" guid="_AQlxJCeAEeOAPaUiQu1yKg" presentationName="Product Release Milestone" superActivities="_AQlxJSeAEeOAPaUiQu1yKg" linkToPredecessor="_AQlxIyeAEeOAPaUiQu1yKg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_AQlxIyeAEeOAPaUiQu1yKg" guid="_AQlxIyeAEeOAPaUiQu1yKg" pred="_AQlxKCeAEeOAPaUiQu1yKg"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_AQlxISeAEeOAPaUiQu1yKg" name="TW_openup_lifecycle" guid="_AQlxISeAEeOAPaUiQu1yKg" presentationName="Trustworthy OpenUP Lifecycle" briefDescription="This delivery process defines an end-to-end trustworthy software development lifecycle that supports the core principles of OpenUP. It is designed to support small, co-located teams in their daily activities." breakdownElements="_AQlxNCeAEeOAPaUiQu1yKg _AQmYOCeAEeOAPaUiQu1yKg _AQlxMCeAEeOAPaUiQu1yKg _AQlxJSeAEeOAPaUiQu1yKg">
+      <presentation xmi:id="-yMWOMRzyPMKCU633Ya0PYw" href="uma://-yMWOMRzyPMKCU633Ya0PYw#-yMWOMRzyPMKCU633Ya0PYw"/>
+      <includesPatterns href="uma://_h0Gs8NONEdyqlogshP8l4g#_h0Gs8dONEdyqlogshP8l4g"/>
+      <includesPatterns href="uma://_aUsVENONEdyqlogshP8l4g#_aUsVEdONEdyqlogshP8l4g"/>
+      <includesPatterns href="uma://_RQi0ANONEdyqlogshP8l4g#_RQi0AdONEdyqlogshP8l4g"/>
+      <includesPatterns href="uma://_pzQU0NONEdyqlogshP8l4g#_pzQU0dONEdyqlogshP8l4g"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

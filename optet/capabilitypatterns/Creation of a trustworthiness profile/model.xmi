@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_1fUPQPlzEeST16WGbo409w" guid="_1fUPQPlzEeST16WGbo409w">
+    <resourceDescriptors xmi:id="_1fU2UPlzEeST16WGbo409w" id="-p6C8RNob5anriZh0qqaDMw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_1eRGYPlzEeST16WGbo409w" name="Creation of a trustworthiness profile" guid="_1eRGYPlzEeST16WGbo409w">
+    <methodElementProperty xmi:id="_1eRGYvlzEeST16WGbo409w" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_6okoEPlzEeST16WGbo409w" name="me_edited" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_1eRGYflzEeST16WGbo409w" name="Creation of a trustworthiness profile" guid="_1eRGYflzEeST16WGbo409w" presentationName="Creation of a trustworthiness profile">
+      <presentation xmi:id="-p6C8RNob5anriZh0qqaDMw" href="uma://-p6C8RNob5anriZh0qqaDMw#-p6C8RNob5anriZh0qqaDMw"/>
+      <defaultContext href="uma://_aLKPQB-JEeOpqe0MT6WSXg#_BCxFcBbsEeOdJ_5Qdnu-0g"/>
+      <validContext href="uma://_aLKPQB-JEeOpqe0MT6WSXg#_BCxFcBbsEeOdJ_5Qdnu-0g"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

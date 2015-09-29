@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="--5knk7ISjEg6uXYfRkzlLA" name="Preparation for runtime monitoring of trust and trustworthiness,_p9CQ0RxNEeOF_P09ig5mEw" guid="--5knk7ISjEg6uXYfRkzlLA">
+    <mainDescription>&lt;p>&#xD;
+    This activity is carried out during the design and development time of the system. The system designer/developer uses&#xD;
+    this capability to create interfaces which are accessible by the runtime monitoring and management functions. To this&#xD;
+    end, the following inputs are used:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Lists of threats and associated controls per asset&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    For each asset, an interface is defined which exposes the values of the trust or trustworthiness properties. These&#xD;
+    properties can be seen as indicators of trustworthiness at runtime. For each threat, a set of symptoms is defined, and&#xD;
+    the designer provides interfaces for the observation of trustworthiness properties that will be used to identify these&#xD;
+    symptoms at runtime. For each control, the designer defines asset-specific mechanisms, and provides an interface to the&#xD;
+    management subsystem to actually invoke the control.&#xD;
+&lt;/p></mainDescription>
+    <keyConsiderations>&lt;span&#xD;
+style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-GB; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA'>&#xD;
+The staff performing this activity must be aware of how the trustworthiness maintenance (i.e., monitoring and management)&#xD;
+is carried out at runtime, so that the designed interfaces are useful for the chosen trustworthiness maintenance&#xD;
+approach.&lt;/span></keyConsiderations>
+    <purpose>&lt;span&#xD;
+style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-GB; mso-fareast-language: IT; mso-bidi-language: AR-SA'>&#xD;
+The system should facilitate the monitoring of trust and trustworthiness by providing methods for the runtime&#xD;
+trustworthiness maintenance to gather values of trustworthiness properties, which indicate threat activity, observe the&#xD;
+events in the running system, and activate the controls to mitigate the threats.&lt;/span></purpose>
+    <howtoStaff>The staff performing this activity must part of the design and development team.</howtoStaff>
+    <scope>design and development time</scope>
+    <usageNotes>During design and development time, the capability pattern must beis used to enable trust and trustworthiness measurement&#xD;
+monitoring and management at runtime, so that the trustworthiness maintenance system can analyse and react on&#xD;
+trustworthiness losses. &lt;br />&#xD;
+If new assets, threats, or controls are identified at runtime, this capability is needed to reconfigure the monitoring and&#xD;
+management system.&lt;br /></usageNotes>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-klNuegg9DB1mS0gB1AsMWg" name="Design Observation and Control Interfaces,_0MfXUBxhEeOF_P09ig5mEw" guid="-klNuegg9DB1mS0gB1AsMWg">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        There may be more than one control that can be activated for a particular threat&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The observation of threat activity may only be possible by indirect observation of asset properties. In some cases&#xD;
+        the cause of the threat may be external to the STS, and thus not directly observable.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Trust beliefs may likewise be hard to observe directly.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jelG1ZgPxpZ8Xs1p-k-eNw" name="System Trust and Trustworthiness Architect,_0Mf-YBxhEeOF_P09ig5mEw" guid="-jelG1ZgPxpZ8Xs1p-k-eNw">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Design the Observation and Management interfaces for each asset in the STS&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Create the System Trust and Trustworthiness Observation and Management Interface document&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure that the interfaces are implemented by the system developers&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4V1Jff_VkIEHI6sgAxH6PQ" name="Implement Observation and Control Interfaces,_2aqfEBxhEeOF_P09ig5mEw" guid="-4V1Jff_VkIEHI6sgAxH6PQ">
+    <refinedDescription>This task is a standard task in software engineering:</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ofaDYaVSP0l6nwSLIqow6A" name="System Developer,_2aqfERxhEeOF_P09ig5mEw" guid="-ofaDYaVSP0l6nwSLIqow6A">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Implement the Observation and Management interfaces for each asset in the STS&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test the interfaces&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

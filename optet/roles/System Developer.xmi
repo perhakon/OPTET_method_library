@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-eSIYM-Vh1kvSQ_hHIs7Axw" name="new_role,_HjsaYBxTEeOF_P09ig5mEw" guid="-eSIYM-Vh1kvSQ_hHIs7Axw" changeDate="2015-05-13T15:04:16.747+0200">
+  <mainDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Implement the Observation and Management interfaces for each asset in the STS&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test the interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Analyzing the detailed design of the component and the trustworthiness features (based on UML and/or OCL&#xD;
+        constraints).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Developing the trustworthiness features defining in the UML diagram.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Writing the source code respecting the rules he has to follow to deliver a trustworthy development.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Unitary testing all developments.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Checking that all developments are compliant with the trustworthiness profile provided in input.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <keyConsiderations>&lt;span lang=&quot;IT&quot;&#xD;
+style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; COLOR: black; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: IT; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA'>&#xD;
+To develop with OPTET GE is a complement to java development. So the main skill is the java development. A specific&#xD;
+complement should be done to learn how to use the different OPTET plugins.&lt;/span></keyConsiderations>
+  <skills>&lt;p>&#xD;
+    A person filling the this role should have these skills:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Software engineering&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To be able to read an UML diagram and OCL constraints.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Knowledge of Java development.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Knowledge of Eclipse environment and OPTET plugins.&lt;br />&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></skills>
+  <assignmentApproaches>This role should be assigned to one or more members of the system development team.</assignmentApproaches>
+</org.eclipse.epf.uma:RoleDescription>

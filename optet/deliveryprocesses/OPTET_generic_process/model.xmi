@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_vi1-oGK2EeSD76PrfO85zA" guid="_vi1-oGK2EeSD76PrfO85zA">
+    <resourceDescriptors xmi:id="_vi1-oWK2EeSD76PrfO85zA" id="-OfQxzQANni8vSc6JJPROFw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_EbpkEGK4EeSD76PrfO85zA" id="-uwLTqDiunP7D6deVK2gcnA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_Ebw40GK4EeSD76PrfO85zA" id="-o7ooDEvO9VB3Vn8LJHJrqw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_nHXqUGK6EeSD76PrfO85zA" id="-Tvbk60XswZBZxsxdaqBw9Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_nHaGkGK6EeSD76PrfO85zA" id="-0TMDa1V2FgD9WWzf7RBw6w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_nHbUsGK6EeSD76PrfO85zA" id="-SUksE2XarMWlRm-5zbAgoQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_nHci0GK6EeSD76PrfO85zA" id="-qajl1SCvI8qTna-Rl_YSuQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_nHe_EGK6EeSD76PrfO85zA" id="-cy0mMTeBd4zrwTq9to4ISA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_nHgNMGK6EeSD76PrfO85zA" id="-UNKIZBAUxyKHNaDIUe3Qmg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_nHiCYGK6EeSD76PrfO85zA" id="-ZnlLGWckWsjujkJ7JGLBGQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_nHj3kGK6EeSD76PrfO85zA" id="--glrXqtV4FZLqcsrK0A4FQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_nHlswGK6EeSD76PrfO85zA" id="-co_MxNIrUrrv25aQFsJnvw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_nHnh8GK6EeSD76PrfO85zA" id="-nKHGPpG9l4LN-eAdX6Id-g" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_vh9N0GK2EeSD76PrfO85zA" name="OPTET_generic_process" guid="_vh9N0GK2EeSD76PrfO85zA">
+    <methodElementProperty xmi:id="_vh9N0mK2EeSD76PrfO85zA" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_COmTIGK3EeSD76PrfO85zA" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_y9ReIGK2EeSD76PrfO85zA" name="Design" guid="_y9ReIGK2EeSD76PrfO85zA">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_y9ReIWK2EeSD76PrfO85zA" name="Design" guid="_y9ReIWK2EeSD76PrfO85zA" presentationName="Design" superActivities="_vh9N0WK2EeSD76PrfO85zA" breakdownElements="_ch618GK3EeSD76PrfO85zA _ch8EEGK3EeSD76PrfO85zA _ch8EEmK3EeSD76PrfO85zA _ch8EFGK3EeSD76PrfO85zA _ch8EFmK3EeSD76PrfO85zA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ch618GK3EeSD76PrfO85zA" name="Identify threats and controls" guid="_ch618GK3EeSD76PrfO85zA" presentationName="Identify threats and controls" briefDescription="Identify the system threats and the controls that block or mitigate the threats." isPlanned="true" superActivities="_y9ReIWK2EeSD76PrfO85zA" isRepeatable="true" optionalInput="_ch8EEmK3EeSD76PrfO85zA" output="_ch8EFGK3EeSD76PrfO85zA _ch8EFmK3EeSD76PrfO85zA" performedPrimarilyBy="_ch8EEGK3EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_ciEm8GK3EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <presentation xmi:id="-uwLTqDiunP7D6deVK2gcnA" href="uma://-OfQxzQANni8vSc6JJPROFw#-uwLTqDiunP7D6deVK2gcnA"/>
+        <concepts href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_RIF-UGK0EeSD76PrfO85zA"/>
+        <Task href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_T6LVgBlLEeOeTN_guLSnBA"/>
+        <selectedSteps href="uma://-N5fFmqLtxQ2E1QJtY7KVGg#_5oCpABlLEeOeTN_guLSnBA"/>
+        <selectedSteps href="uma://-N5fFmqLtxQ2E1QJtY7KVGg#_9IuhgBlLEeOeTN_guLSnBA"/>
+        <selectedSteps href="uma://-N5fFmqLtxQ2E1QJtY7KVGg#_Hvj9UBlMEeOeTN_guLSnBA"/>
+        <selectedSteps href="uma://-N5fFmqLtxQ2E1QJtY7KVGg#_KwU_oBlMEeOeTN_guLSnBA"/>
+        <selectedSteps href="uma://-N5fFmqLtxQ2E1QJtY7KVGg#_MKhswBlMEeOeTN_guLSnBA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_ch8EEGK3EeSD76PrfO85zA" name="Risk analyser" guid="_ch8EEGK3EeSD76PrfO85zA" presentationName="Risk analyser" briefDescription="The Risk analyser is responsible for analysing the system to identify any threats that may compromise its assets and thus affect its functionalities. The activities include asset modelling, threat identification and control selection.  " superActivities="_y9ReIWK2EeSD76PrfO85zA" modifies="_ch8EFGK3EeSD76PrfO85zA _ch8EFmK3EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_ch8EEWK3EeSD76PrfO85zA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_ciI4YGK3EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <presentation xmi:id="-o7ooDEvO9VB3Vn8LJHJrqw" href="uma://-OfQxzQANni8vSc6JJPROFw#-o7ooDEvO9VB3Vn8LJHJrqw"/>
+        <Role href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_cCa54BlJEeOeTN_guLSnBA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ch8EEmK3EeSD76PrfO85zA" name="Asset model" guid="_ch8EEmK3EeSD76PrfO85zA" presentationName="Asset model" briefDescription="This contains a model of the idenitfied system assets." superActivities="_y9ReIWK2EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_ch8EE2K3EeSD76PrfO85zA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_ciKGgGK3EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <WorkProduct href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_0Q_XgDZlEeOZfq-iuYBfLA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ch8EFGK3EeSD76PrfO85zA" name="Statement of threats and controls" guid="_ch8EFGK3EeSD76PrfO85zA" presentationName="Statement of threats and controls" briefDescription="This contains the set of identified threats and selected controls as well as the residual risks that were not assigned any controls." superActivities="_y9ReIWK2EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_ch8EFWK3EeSD76PrfO85zA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_ciGcIGK3EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <WorkProduct href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_VIdREBlMEeOeTN_guLSnBA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ch8EFmK3EeSD76PrfO85zA" name="Abstract System Model" guid="_ch8EFmK3EeSD76PrfO85zA" presentationName="Abstract System Model" briefDescription="High level system description" superActivities="_y9ReIWK2EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_ch8EF2K3EeSD76PrfO85zA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_ciHqQGK3EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <WorkProduct href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_BX4YcGK1EeSD76PrfO85zA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_3VSnQGK2EeSD76PrfO85zA" name="Development" guid="_3VSnQGK2EeSD76PrfO85zA">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_3VSnQWK2EeSD76PrfO85zA" name="Development" guid="_3VSnQWK2EeSD76PrfO85zA" presentationName="Development" superActivities="_vh9N0WK2EeSD76PrfO85zA" breakdownElements="_bvS-0GK6EeSD76PrfO85zA _bvS-0WK6EeSD76PrfO85zA _bvS-02K6EeSD76PrfO85zA _fscJ0GK6EeSD76PrfO85zA _fscJ0WK6EeSD76PrfO85zA _fscw4GK6EeSD76PrfO85zA _fscw4mK6EeSD76PrfO85zA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_bvS-0GK6EeSD76PrfO85zA" name="Compose Digital Trustworthy Certificate" guid="_bvS-0GK6EeSD76PrfO85zA" presentationName="Compose Digital Trustworthy Certificate" briefDescription="Insert all the necessary elements into the Digitial TW Certificate " superActivities="_3VSnQWK2EeSD76PrfO85zA" output="_bvS-02K6EeSD76PrfO85zA" performedPrimarilyBy="_bvS-0WK6EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_bvU0AGK6EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_eUaxcBxZEeOF_P09ig5mEw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_bvS-0WK6EeSD76PrfO85zA" name="System Trustworthiness Certificate Architect" guid="_bvS-0WK6EeSD76PrfO85zA" presentationName="System Trustworthiness Certificate Architect" briefDescription="Part of the architect's responsibilities is managing the importing of the elements that are needed for the composing of the Digital Trustworthiness Certificate.  " isPlanned="false" superActivities="_3VSnQWK2EeSD76PrfO85zA" modifies="_bvS-02K6EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_bvS-0mK6EeSD76PrfO85zA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_bvWCIGK6EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <presentation xmi:id="-Tvbk60XswZBZxsxdaqBw9Q" href="uma://-OfQxzQANni8vSc6JJPROFw#-Tvbk60XswZBZxsxdaqBw9Q"/>
+        <Role href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_uhB_cBxYEeOF_P09ig5mEw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_bvS-02K6EeSD76PrfO85zA" name="Digital Trustworthiness Certificate" guid="_bvS-02K6EeSD76PrfO85zA" presentationName="Digital Trustworthiness Certificate" briefDescription="A Digital Trustworthiness Certificate provides trustworthiness assurance for a software product." isPlanned="false" superActivities="_3VSnQWK2EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_bvS-1GK6EeSD76PrfO85zA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_bvXQQGK6EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <presentation xmi:id="-0TMDa1V2FgD9WWzf7RBw6w" href="uma://-OfQxzQANni8vSc6JJPROFw#-0TMDa1V2FgD9WWzf7RBw6w"/>
+        <WorkProduct href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_PyXn4DZxEeOZfq-iuYBfLA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_fscJ0GK6EeSD76PrfO85zA" name="Implement Observation and Control Interfaces" guid="_fscJ0GK6EeSD76PrfO85zA" presentationName="Implement Observation and Control Interfaces" briefDescription="Implement the observation and control interfaces defined in the Observation and Control Interface Document." superActivities="_3VSnQWK2EeSD76PrfO85zA" mandatoryInput="_fscw4GK6EeSD76PrfO85zA" output="_fscw4mK6EeSD76PrfO85zA" performedPrimarilyBy="_fscJ0WK6EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_fskFoGK6EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <presentation xmi:id="-SUksE2XarMWlRm-5zbAgoQ" href="uma://-OfQxzQANni8vSc6JJPROFw#-SUksE2XarMWlRm-5zbAgoQ"/>
+        <Task href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_4zW9IBxTEeOF_P09ig5mEw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_fscJ0WK6EeSD76PrfO85zA" name="System Developer" guid="_fscJ0WK6EeSD76PrfO85zA" presentationName="System Developer" briefDescription="The System Developer is responsible for implementing the interfaces in interface design document." isPlanned="false" superActivities="_3VSnQWK2EeSD76PrfO85zA" modifies="_fscw4mK6EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_fscJ0mK6EeSD76PrfO85zA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_fsnI8GK6EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <presentation xmi:id="-qajl1SCvI8qTna-Rl_YSuQ" href="uma://-OfQxzQANni8vSc6JJPROFw#-qajl1SCvI8qTna-Rl_YSuQ"/>
+        <Role href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_HjsaYBxTEeOF_P09ig5mEw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_fscw4GK6EeSD76PrfO85zA" name="Observation and Control Interface Document" guid="_fscw4GK6EeSD76PrfO85zA" presentationName="Observation and Control Interface Document" briefDescription="This document describes – for each asset – what are the interfaces that must be implemented to enable observation and control of the asset." isPlanned="false" superActivities="_3VSnQWK2EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_fscw4WK6EeSD76PrfO85zA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_fsmh4GK6EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <WorkProduct href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_eo6NABxUEeOF_P09ig5mEw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_fscw4mK6EeSD76PrfO85zA" name="Observation and Control Interface Implementation" guid="_fscw4mK6EeSD76PrfO85zA" presentationName="Observation and Control Interface Implementation" briefDescription="This is the system software which implements the interfaces described in the Observation and Control Interface Document." isPlanned="false" superActivities="_3VSnQWK2EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_fscw42K6EeSD76PrfO85zA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_fslTwGK6EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <WorkProduct href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_n4eT4BxUEeOF_P09ig5mEw"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_4eiHQGK2EeSD76PrfO85zA" name="Deployment" guid="_4eiHQGK2EeSD76PrfO85zA">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_4eiHQWK2EeSD76PrfO85zA" name="Deployment" guid="_4eiHQWK2EeSD76PrfO85zA" presentationName="Deployment" superActivities="_vh9N0WK2EeSD76PrfO85zA" breakdownElements="_k0BHoGK6EeSD76PrfO85zA _k0BusGK6EeSD76PrfO85zA _k0BusmK6EeSD76PrfO85zA _k0ButGK6EeSD76PrfO85zA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_k0BHoGK6EeSD76PrfO85zA" name="Evaluate System Trustworthiness" guid="_k0BHoGK6EeSD76PrfO85zA" presentationName="Evaluate System Trustworthiness" briefDescription="Input the current state of the system and its environment, then compute its end-to-end trustworthiness." superActivities="_4eiHQWK2EeSD76PrfO85zA" output="_k0ButGK6EeSD76PrfO85zA" performedPrimarilyBy="_k0BusGK6EeSD76PrfO85zA _k0BusmK6EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_k0Dj4GK6EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <presentation xmi:id="-cy0mMTeBd4zrwTq9to4ISA" href="uma://-OfQxzQANni8vSc6JJPROFw#-cy0mMTeBd4zrwTq9to4ISA"/>
+        <Task href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_TRuDwBoOEeOeTN_guLSnBA"/>
+        <selectedSteps href="uma://-IYvkUNYHyjWIpjRXm1-GKQ#_E9kMMBoPEeOeTN_guLSnBA"/>
+        <selectedSteps href="uma://-IYvkUNYHyjWIpjRXm1-GKQ#_Huqa0BoPEeOeTN_guLSnBA"/>
+        <selectedSteps href="uma://-IYvkUNYHyjWIpjRXm1-GKQ#_KWYrABoPEeOeTN_guLSnBA"/>
+        <selectedSteps href="uma://-IYvkUNYHyjWIpjRXm1-GKQ#_M-sxEBoPEeOeTN_guLSnBA"/>
+        <selectedSteps href="uma://-IYvkUNYHyjWIpjRXm1-GKQ#_OixL4BoPEeOeTN_guLSnBA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_k0BusGK6EeSD76PrfO85zA" name="System Trustworthiness Monitor" guid="_k0BusGK6EeSD76PrfO85zA" presentationName="System Trustworthiness Monitor" briefDescription="The System Trustworthiness Monitor is responsible for invoking the End to End Trustworthiness Calculator at runtime. It is conceivable that this role could be played by a software component in the case of a truly autonomic system, however in general the role will be played by a human responsible for the day-to-day management of the STS.  " isPlanned="false" superActivities="_4eiHQWK2EeSD76PrfO85zA" modifies="_k0ButGK6EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_k0BusWK6EeSD76PrfO85zA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_k0Dj4WK6EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <presentation xmi:id="-UNKIZBAUxyKHNaDIUe3Qmg" href="uma://-OfQxzQANni8vSc6JJPROFw#-UNKIZBAUxyKHNaDIUe3Qmg"/>
+        <Role href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_ilIuABoPEeOeTN_guLSnBA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_k0BusmK6EeSD76PrfO85zA" name="System Trust and Trustworthiness Architect" guid="_k0BusmK6EeSD76PrfO85zA" presentationName="System Trust and Trustworthiness Architect" briefDescription="The System Trust and Trustworthiness Architect is responsible for creating the main work product of this capability which is an interface design document. The activities include: Identifying the properties of all assets which are to be monitored either for their trust in the system or the trustworthiness of the asset; Identifying the observable characteristics of the system which would indicate the activity of a threat; Identifying the controls used in the management of threats; Designing an interface for measurement, observation, and actuation of controls." isPlanned="false" superActivities="_4eiHQWK2EeSD76PrfO85zA" modifies="_k0ButGK6EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_k0Bus2K6EeSD76PrfO85zA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_k0GAIGK6EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <presentation xmi:id="-ZnlLGWckWsjujkJ7JGLBGQ" href="uma://-OfQxzQANni8vSc6JJPROFw#-ZnlLGWckWsjujkJ7JGLBGQ"/>
+        <Role href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_02PcwBxSEeOF_P09ig5mEw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_k0ButGK6EeSD76PrfO85zA" name="Trustworthiness Assessment" guid="_k0ButGK6EeSD76PrfO85zA" presentationName="Trustworthiness Assessment" briefDescription="This contains a representation of the end-to-end system trustworthiness." isPlanned="false" superActivities="_4eiHQWK2EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_k0ButWK6EeSD76PrfO85zA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_k0EyAGK6EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <WorkProduct href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_bJeYQBoQEeOeTN_guLSnBA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_5h8sEGK2EeSD76PrfO85zA" name="Maintenance" guid="_5h8sEGK2EeSD76PrfO85zA">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_5h8sEWK2EeSD76PrfO85zA" name="Maintenance" guid="_5h8sEWK2EeSD76PrfO85zA" presentationName="Maintenance" superActivities="_vh9N0WK2EeSD76PrfO85zA" breakdownElements="_hQCDgGK6EeSD76PrfO85zA _hQCqkGK6EeSD76PrfO85zA _hQCqkmK6EeSD76PrfO85zA _hQCqlGK6EeSD76PrfO85zA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hQCDgGK6EeSD76PrfO85zA" name="Evaluate System Trustworthiness" guid="_hQCDgGK6EeSD76PrfO85zA" presentationName="Evaluate System Trustworthiness" briefDescription="Input the current state of the system and its environment, then compute its end-to-end trustworthiness." superActivities="_5h8sEWK2EeSD76PrfO85zA" output="_hQCqlGK6EeSD76PrfO85zA" performedPrimarilyBy="_hQCqkGK6EeSD76PrfO85zA _hQCqkmK6EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_hQEfwGK6EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <presentation xmi:id="--glrXqtV4FZLqcsrK0A4FQ" href="uma://-OfQxzQANni8vSc6JJPROFw#--glrXqtV4FZLqcsrK0A4FQ"/>
+        <Task href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_TRuDwBoOEeOeTN_guLSnBA"/>
+        <selectedSteps href="uma://-IYvkUNYHyjWIpjRXm1-GKQ#_E9kMMBoPEeOeTN_guLSnBA"/>
+        <selectedSteps href="uma://-IYvkUNYHyjWIpjRXm1-GKQ#_Huqa0BoPEeOeTN_guLSnBA"/>
+        <selectedSteps href="uma://-IYvkUNYHyjWIpjRXm1-GKQ#_KWYrABoPEeOeTN_guLSnBA"/>
+        <selectedSteps href="uma://-IYvkUNYHyjWIpjRXm1-GKQ#_M-sxEBoPEeOeTN_guLSnBA"/>
+        <selectedSteps href="uma://-IYvkUNYHyjWIpjRXm1-GKQ#_OixL4BoPEeOeTN_guLSnBA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_hQCqkGK6EeSD76PrfO85zA" name="System Trustworthiness Monitor" guid="_hQCqkGK6EeSD76PrfO85zA" presentationName="System Trustworthiness Monitor" briefDescription="The System Trustworthiness Monitor is responsible for invoking the End to End Trustworthiness Calculator at runtime. It is conceivable that this role could be played by a software component in the case of a truly autonomic system, however in general the role will be played by a human responsible for the day-to-day management of the STS.  " isPlanned="false" superActivities="_5h8sEWK2EeSD76PrfO85zA" modifies="_hQCqlGK6EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_hQCqkWK6EeSD76PrfO85zA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_hQHjEGK6EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <presentation xmi:id="-co_MxNIrUrrv25aQFsJnvw" href="uma://-OfQxzQANni8vSc6JJPROFw#-co_MxNIrUrrv25aQFsJnvw"/>
+        <Role href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_ilIuABoPEeOeTN_guLSnBA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_hQCqkmK6EeSD76PrfO85zA" name="System Trust and Trustworthiness Architect" guid="_hQCqkmK6EeSD76PrfO85zA" presentationName="System Trust and Trustworthiness Architect" briefDescription="The System Trust and Trustworthiness Architect is responsible for creating the main work product of this capability which is an interface design document. The activities include: Identifying the properties of all assets which are to be monitored either for their trust in the system or the trustworthiness of the asset; Identifying the observable characteristics of the system which would indicate the activity of a threat; Identifying the controls used in the management of threats; Designing an interface for measurement, observation, and actuation of controls." isPlanned="false" superActivities="_5h8sEWK2EeSD76PrfO85zA" modifies="_hQCqlGK6EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_hQCqk2K6EeSD76PrfO85zA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_hQHjEWK6EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <presentation xmi:id="-nKHGPpG9l4LN-eAdX6Id-g" href="uma://-OfQxzQANni8vSc6JJPROFw#-nKHGPpG9l4LN-eAdX6Id-g"/>
+        <Role href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_02PcwBxSEeOF_P09ig5mEw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_hQCqlGK6EeSD76PrfO85zA" name="Trustworthiness Assessment" guid="_hQCqlGK6EeSD76PrfO85zA" presentationName="Trustworthiness Assessment" briefDescription="This contains a representation of the end-to-end system trustworthiness." isPlanned="false" superActivities="_5h8sEWK2EeSD76PrfO85zA">
+        <methodElementProperty xmi:id="_hQCqlWK6EeSD76PrfO85zA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_hQFt4GK6EeSD76PrfO85zA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <WorkProduct href="uma://_q5CDoBbqEeOdJ_5Qdnu-0g#_bJeYQBoQEeOeTN_guLSnBA"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_vh9N0WK2EeSD76PrfO85zA" name="OPTET_generic_process" guid="_vh9N0WK2EeSD76PrfO85zA" presentationName="OPTET_generic_process" briefDescription="A generic development process to be used as a reference" breakdownElements="_y9ReIWK2EeSD76PrfO85zA _3VSnQWK2EeSD76PrfO85zA _4eiHQWK2EeSD76PrfO85zA _5h8sEWK2EeSD76PrfO85zA">
+      <presentation xmi:id="-OfQxzQANni8vSc6JJPROFw" href="uma://-OfQxzQANni8vSc6JJPROFw#-OfQxzQANni8vSc6JJPROFw"/>
+      <defaultContext href="uma://_aLKPQB-JEeOpqe0MT6WSXg#_BCxFcBbsEeOdJ_5Qdnu-0g"/>
+      <validContext href="uma://_aLKPQB-JEeOpqe0MT6WSXg#_BCxFcBbsEeOdJ_5Qdnu-0g"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

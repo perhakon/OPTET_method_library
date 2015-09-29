@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-AMDTcE4kBOscZbbfRhhyFQ" name="Development of trustworthy aplications,_Cgx8cfleEeST16WGbo409w" guid="-AMDTcE4kBOscZbbfRhhyFQ">
+    <mainDescription>&lt;p>&#xD;
+    &lt;span lang=&quot;EN-US&quot;&#xD;
+    style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA'>&#xD;
+    This activity is carried out during the development time of one component of the STS system. The main goal of this&#xD;
+    activity is to provide the component source code including Trustworthiness assurances regarding the development phase.&#xD;
+    The list of expected assurances shall be specified before the development through the “Trustworthiness profile”.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The two main steps of this activity are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Software detailed design of the component already defined in the CSM for the specific trustworthiness features,&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Software development of the component aiming to reach the value of the “Trustworthiness profile”,&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    As input, he uses :&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        “Trustworthiness profile”,&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Non-functional specification and design coming from CSM (Concrete System Model) including the specification and&#xD;
+        design for monitoring tool interfaces.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Some elements regarding the design (interface, design pattern to use, coding rules, architecture guidelines).&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <keyConsiderations>&lt;p class=&quot;MsoNormal&quot;&#xD;
+style=&quot;TEXT-ALIGN: left; MARGIN: 6pt 0cm; LINE-HEIGHT: 115%; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1&quot;>&#xD;
+    All the input and output shall be managed in a secured repository.&#xD;
+&lt;/p></keyConsiderations>
+    <purpose>&lt;span lang=&quot;IT&quot;&#xD;
+style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: IT; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA'>&#xD;
+Use specific tools and make different activities during the development to add some trustworthiness assurances. These&#xD;
+assurances shall be provided to certification process.&lt;/span></purpose>
+    <alternatives>&lt;span lang=&quot;IT&quot;&#xD;
+style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: IT; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA'>&#xD;
+OPA Factory gives, for specific applications, a functional language taken in charge different trustworthiness aspects like&#xD;
+the design, the quality of code, etc.&lt;/span></alternatives>
+    <howtoStaff>&lt;span lang=&quot;EN-US&quot;&#xD;
+style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA'>&#xD;
+Different staff could perform this activity; it could be a software design team, a software development team.&lt;/span></howtoStaff>
+    <scope>&lt;span lang=&quot;IT&quot;&#xD;
+style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: IT; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA'>&#xD;
+development time&lt;/span></scope>
+    <usageNotes>&lt;span lang=&quot;EN-US&quot;&#xD;
+style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA'>&#xD;
+Ideally, for functional and non-functional specifications, the developer could use an UML model describing the architecture&#xD;
+as input with all interfaces.&lt;/span></usageNotes>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IB9D7kQ-YUm5nMONLJuOnQ" name="Design a Trustworthiness software component,_OAplIPl2EeST16WGbo409w" guid="-IB9D7kQ-YUm5nMONLJuOnQ">
+    <keyConsiderations>&lt;p class=&quot;MsoNormal&quot;&#xD;
+style=&quot;BACKGROUND: white; TEXT-ALIGN: left; MARGIN: 6pt 0cm 6pt 22.5pt; TEXT-INDENT: -18pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;&#xD;
+ align=&quot;left&quot;>&#xD;
+    &lt;span lang=&quot;IT&quot;&#xD;
+    style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; COLOR: black; mso-fareast-language: EN-GB'>Use a model&#xD;
+    approach with UML to refine the component definition and the different interfaces.&lt;/span>&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The Software trustworthy designer is in charge to integrate trustworthy features in the detailed design. He has to make&#xD;
+    up the detailed design regarding the functional requirements. This expanded detailed design is used by the developer&#xD;
+    himself or by another team member in order to write the source code of the component.&lt;br />&#xD;
+    In order to increase trustworthiness, he has to take into account the following elements:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Trustworthiness profile&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A definition of the system with all defined external interfaces (e.g. architecture described in UML).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Technical choices and design pattern to use.(based on CSM)&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mya5UjZ72-jQOXpeid0EHA" name="System Designer,_OAraUPl2EeST16WGbo409w" guid="-mya5UjZ72-jQOXpeid0EHA">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Analyzing the definition of the component with its external interfaces provided by the architecture team.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Designing in details the trustworthiness features.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Providing an UML diagram and/or OCL constraints to take into account different trustworthy properties.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-XM0YtU6qNpNwd-NWZwSb4Q" name="Write source code and test (unit test) software component,_PlmJsPl2EeST16WGbo409w" guid="-XM0YtU6qNpNwd-NWZwSb4Q">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        In java, use an Eclipse platform with plugins to write the source code and a specific framework for unit tests.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        In Opa, use of OPA environment provides assurances for code quality and unit tests without performing these&#xD;
+        activities. The assurances come directly from the OPA compiler.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;P style=&quot;BACKGROUND: white&quot;>&lt;SPAN lang=EN-US style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; BACKGROUND: white; COLOR: black; mso-ansi-language: EN-US'>After the detailed design, the software trustworthy developer has to develop the component with the selected language. He has to develop specifically the trustworthiness features. The trustworthiness profile gives him some indications for the whole code quality (especially a list of coding rules) he has to follow in order to reach the trustworthiness goal. In the case of java, he writes, in parallel, the unit tests. &lt;/SPAN>&lt;SPAN lang=EN-US style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; COLOR: black; mso-ansi-language: EN-US; mso-fareast-language: EN-GB'>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--3vxerhcK0WWs4p_5xRIrw" name="System Developer,_PlmwwPl2EeST16WGbo409w" guid="--3vxerhcK0WWs4p_5xRIrw">
+    <keyConsiderations>&lt;span lang=&quot;IT&quot;&#xD;
+style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; COLOR: black; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: IT; mso-fareast-language: EN-GB; mso-bidi-language: AR-SA'>&#xD;
+To develop with OPTET GE is a complement to java development. So the main skill is the java development. A specific&#xD;
+complement should be done to learn how to use the different OPTET plugins.&lt;/span></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Implement the Observation and Management interfaces for each asset in the STS&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test the interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Analyzing the detailed design of the component and the trustworthiness features (based on UML and/or OCL&#xD;
+        constraints).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Developing the trustworthiness features defining in the UML diagram.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Writing the source code respecting the rules he has to follow to deliver a trustworthy development.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Unitary testing all developments.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Checking that all developments are compliant with the trustworthiness profile provided in input.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BAmkKE2_elvSu9X5FBLyAw" name="Check the component trustworthiness,_Q4SgoPl2EeST16WGbo409w" guid="-BAmkKE2_elvSu9X5FBLyAw">
+    <keyConsiderations>These checks make sense in Java but not in Opa where the Trustworthiness is natively taken into account.</keyConsiderations>
+    <refinedDescription>&lt;span lang=&quot;EN-US&quot;&#xD;
+style='FONT-SIZE: 10pt; FONT-FAMILY: &quot;Arial&quot;,&quot;sans-serif&quot;; BACKGROUND: white; COLOR: black; mso-fareast-font-family: &quot;Times New Roman&quot;; mso-ansi-language: EN-US; mso-fareast-language: IT; mso-bidi-language: AR-SA'>&#xD;
+Each time the developer wants to check if his source code is trustworthy and if the trustworthy features are&#xD;
+well-implemented, he shall be able to make the checks and to decide the modifications he has to take into account.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>
